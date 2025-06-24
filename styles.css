@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+.header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    background: #e8491d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px 0;
+}
+
+/* Projects and Experience Section Styles */
+.projects, .experience, .medium-posts, .links {
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #35424a;
+}
+
+/* Description Styles */
+.description {
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.6; /* Improve readability */
+    margin: 15px auto; /* Center the description with auto margins */
+    text-align: center; /* Center the description text */
+    max-width: 600px; /* Set a max width to match the cards */
+    padding: 0 15px; /* Add padding for better spacing */
+}
+
+/* Card Styles */
+.project-card, .experience-item, .link-item {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 600px; /* Set a max width for the cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3, .experience-item h3, .link-item h3 {
+    margin-top: 0;
+}
+
+.project-card p, .experience-item p, .link-item p {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+.footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
