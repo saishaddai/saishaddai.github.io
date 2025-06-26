@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidel Lopez Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+        }
+        .container {
+            max-width: 8.5in; /* Standard letter size width */
+            margin: 1rem auto; /* Adjust margin for mobile */
+            background-color: #ffffff;
+            padding: 0.75in; /* Standard resume padding */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            box-sizing: border-box; /* Include padding in element's total width and height */
+            /* Ensure content fits on typical resume page */
+            line-height: 1.5; /* Improved readability */
+        }
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                margin: 0;
+                padding: 0.75in;
+                box-shadow: none;
+                border-radius: 0;
+                width: 8.5in;
+                height: 11in; /* Standard letter size height */
+                page-break-after: always;
+            }
+        }
+        /* Style for headings */
+        h1 {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.25rem;
+        }
+        h2 {
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.25rem;
+            margin-bottom: 1rem;
+            margin-top: 1.5rem;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            padding-left: 0;
+        }
+        p {
+            margin-bottom: 0.5rem;
+        }
+        .job-title {
+            font-weight: 600; /* Semi-bold for job title */
+        }
+        .job-dates {
+            font-style: italic;
+            color: #4a5568;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="mb-6 text-center">
+            <h1 class="text-4xl font-extrabold text-blue-800 mb-2 pb-2 border-b-2 border-blue-200 rounded-sm">Saidel Lopez</h1>
+            <p class="text-xl font-medium text-blue-700">Software Engineer</p>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 pb-2 border-b border-blue-100 rounded-sm">Summary</h2>
+            <p class="text-base leading-relaxed">Software Engineer with over 16 years in the field, including more than 7 years as an Android Developer and 3 years as a Client Director. I've worked on projects at both national and international levels, consistently prioritizing collaboration with different teams and maintaining open communication with all stakeholders. My experience includes managing multiple teams, accounts and designing solutions for challenging environments with limited infrastructure and network connectivity.</p>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 pb-2 border-b border-blue-100 rounded-sm">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-base">
+                <div>
+                    <strong class="font-semibold text-blue-600">Programming Languages:</strong>
+                    <span class="ml-1">Kotlin, Android, Java, JavaScript, PHP</span>
+                </div>
+                <div>
+                    <strong class="font-semibold text-blue-600">Frameworks/Libraries:</strong>
+                    <span class="ml-1">Android SDK, Jetpack, Material Design, RxJava, RxKotlin, Coroutines, Retrofit, Dagger, UML, Glide Appium, Spring, Struts 1 & 2, Hibernate</span>
+                </div>
+                <div>
+                    <strong class="font-semibold text-blue-600">Database Management:</strong>
+                    <span class="ml-1">SQLite, PostgreSQL, MySQL, MongoDB, Cassandra, Oracle</span>
+                </div>
+                <div>
+                    <strong class="font-semibold text-blue-600">Tools:</strong>
+                    <span class="ml-1">Android Studio, Firebase, Stetho, Rest APIs, Apache HTTP, Apache Tomcat, GlassFish, Git, SVN, Linux</span>
+                </div>
+                <div>
+                    <strong class="font-semibold text-blue-600">Skills/Methodologies:</strong>
+                    <span class="ml-1">Program Management, Design Patterns, Agile, Scrum</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 pb-2 border-b border-blue-100 rounded-sm">Work Experience</h2>
+
+            <!-- Job 1 -->
+            <div class="mb-6">
+                <h3 class="text-xl job-title text-blue-800">Client Director and Engineering Manager at Encora</h3>
+                <p class="text-sm job-dates text-gray-600 mb-2">Mar 2022 - Present</p>
+                <ul class="list-disc ml-6 text-base space-y-1">
+                    <li>Currently coaching 56 engineers from USA, Mexico, Argentina, Costa Rica, Colombia, and India.</li>
+                    <li>Managed 17 accounts in Logistics, Travel, Healthcare, Last Mile Delivery, Education, Energy, among others.</li>
+                    <li>Facilitated and technically advised Kickoff Meetings with new accounts to define expectations, work conditions, tools, and job descriptions.</li>
+                    <li>Created SOW, MSA, and EAF contracts with new clients for projects, collaborations, products, and services.</li>
+                    <li>Implemented Performance Improvement Programs (PIP) with engineers.</li>
+                    <li>Planned onboardings/offboarding of engineers in teams.</li>
+                    <li>Conducted biweekly checks on managers to track team health and find solutions to emerging situations.</li>
+                    <li>Held weekly meetings with engineering teams for announcements, topic follow-ups, and escalation of situations with managers.</li>
+                    <li>Conducted 1-on-1 meetings to monitor engineer's workload and mental health.</li>
+                    <li>Performed performance and salary reviews.</li>
+                    <li>Maintained healthy finances within the accounts.</li>
+                    <li>Assisted delivery team in presenting the right candidates to accounts.</li>
+                    <li>Assigned roles, followed up on time offs, holidays, and emergencies of engineers.</li>
+                    <li>Presented Encora capabilities on Gen AI, Cloud, and Data.</li>
+                    <li>Coordinated engineers' travel to HQs.</li>
+                    <li>Created fiscal reports, use cases, and industry/account updates.</li>
+                    <li>Performed interviews on new Android candidates.</li>
+                    <li>Set challenges and projects in Encora Internship Program (Spark).</li>
+                    <li>Helped developers on the bench to improve their technical and communication skills.</li>
+                    <li>Worked as a manager in internal products and accelerators.</li>
+                </ul>
+                <p class="mt-2 text-sm text-gray-700"><strong class="font-semibold">Technology:</strong> Account Management, Program Management, Coaching, Finances</p>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="mb-6">
+                <h3 class="text-xl job-title text-blue-800">Android Developer at Crew App</h3>
+                <p class="text-sm job-dates text-gray-600 mb-2">Nov 2019 - Mar 2022</p>
+                <ul class="list-disc ml-6 text-base space-y-1">
+                    <li>Created and implemented strategies to update legacy code from Java to Kotlin.</li>
+                    <li>Created Proof of Concepts of Coroutines to start new implementations.</li>
+                    <li>Worked on continuous performance improvements.</li>
+                    <li>Helped define and document best practices and code agreements.</li>
+                    <li>Implemented and demonstrated new features.</li>
+                    <li>Established documentation in Confluence.</li>
+                </ul>
+                <p class="mt-2 text-sm text-gray-700"><strong class="font-semibold">Technology:</strong> Android, Java, Kotlin, Coroutines, Jetpack, RxJava, Jira, Confluence</p>
+            </div>
+
+            <!-- Job 3 -->
+            <div class="mb-6">
+                <h3 class="text-xl job-title text-blue-800">Android Developer at Harvestmark</h3>
+                <p class="text-sm job-dates text-gray-600 mb-2">Feb 2015 - Nov 2019</p>
+                <ul class="list-disc ml-6 text-base space-y-1">
+                    <li>Created and implemented a strategy to update all legacy code from Eclipse version to Android Studio.</li>
+                    <li>Implemented internationalization for the app.</li>
+                    <li>Created documentation for users of the app in English and Spanish.</li>
+                    <li>Documented processes in Confluence and described app functionalities with UML.</li>
+                    <li>Improved performance of in-built scanners.</li>
+                    <li>Improved performance of all database queries to reduce memory usage and response times.</li>
+                    <li>Presented monthly results of the app's overall performance.</li>
+                    <li>Updated camera functions.</li>
+                    <li>Implemented a new version of the whole app for use in Chinese territory.</li>
+                </ul>
+                <p class="mt-2 text-sm text-gray-700"><strong class="font-semibold">Technology:</strong> Android, Java, Kotlin, Espresso, Glide, Google Services, OKHTTP, SQLite, Eclipse, Android Studio, Github</p>
+            </div>
+
+            <!-- Job 4 -->
+            <div class="mb-6">
+                <h3 class="text-xl job-title text-blue-800">Fullstack Engineer at Switchfly</h3>
+                <p class="text-sm job-dates text-gray-600 mb-2">Feb 2014 - Jan 2015</p>
+                <ul class="list-disc ml-6 text-base space-y-1">
+                    <li>Developed integrations for Hotel, Travel, and Activities for Disney.</li>
+                    <li>Improved the automation tests of the platform.</li>
+                    <li>Participated in an internal hackathon, reducing response times.</li>
+                    <li>Created Proof of Concepts (PoC) for monthly presentations to new joiners.</li>
+                </ul>
+                <p class="mt-2 text-sm text-gray-700"><strong class="font-semibold">Technology:</strong> Java, Coldfusion, JSP, Servlets, Ember.js Javascript, Maven, IntelliJ IDEA, Spring, HTML, Hibernate, Apache Web Server, Apache Tomcat, PostgreSQL, MySQL, API, GIT, Github</p>
+            </div>
+
+            <!-- Job 5 -->
+            <div class="mb-6">
+                <h3 class="text-xl job-title text-blue-800">Lead Developer and Project Manager at Ondore Inc.</h3>
+                <p class="text-sm job-dates text-gray-600 mb-2">Jan 2008 - Dec 2013</p>
+                <ul class="list-disc ml-6 text-base space-y-1">
+                    <li>Managed accounts for small projects with Secretaría de Energía, InMujeres, Secretaría de Educación Pública, and Secretaría de Gobernación for the President of Mexico's official page.</li>
+                    <li>Project Manager of the engineering team (5 developers, 1 designer, 1 QA).</li>
+                    <li>Created and presented performance plots and statistics of the team.</li>
+                    <li>Worked as a Scrum Master in the first implementations of Agile methods.</li>
+                    <li>Implemented a system that measured sentiment in social media (Twitter, Facebook, Pinterest) of Mexican brands (TV Azteca, CEMEX) and politicians of Cámara de Diputados and Partido Acción Nacional.</li>
+                    <li>Defined architecture and implementation of Retewi Project (Healthcare) for Telefonica Movistar.</li>
+                    <li>Defined architecture and implementation of the discovery feature of Ideas Radio (Music) for Telcel.</li>
+                    <li>Defined architecture and implementation of a Web Crawler and a search engine for Secretaría de Energía and Secretaría de Gobernación (Mexican Government).</li>
+                    <li>Created a PoC of a search Engine for Universidad de Colima.</li>
+                    <li>Created full applications as proof of the search engine for partner seeking (like match.com), Movie To Watch (like IMDB's What to watch feature), and Places To Visit based on Twitter posts (like Trip Advisor).</li>
+                    <li>Created a small app in PHP to train the AI Engine in English and Spanish languages.</li>
+                    <li>Created from scratch a search engine based on Google's white pages and AI.</li>
+                </ul>
+                <p class="mt-2 text-sm text-gray-700"><strong class="font-semibold">Technology:</strong> Java, Python, PHP, JavaScript, Backbone, JSP, Struts 1 & 2, Spring, HTML, CSS, Hibernate, Apache Web Server, NginX, Apache Tomcat, PostgreSQL, MongoDB, Netbeans, Eclipse, Project Management, Scrum Master, SVN, GIT</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 pb-2 border-b border-blue-100 rounded-sm">Education</h2>
+            <p class="text-base"><strong>2008, BS Computer Science</strong>, UNAM</p>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 pb-2 border-b border-blue-100 rounded-sm">Certifications</h2>
+            <p class="text-base"><strong>2014, Scrum Master</strong>, from Scrum Master Alliance</p>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 pb-2 border-b border-blue-100 rounded-sm">Blog</h2>
+            <p class="text-base">Today I Learned @ Medium</p>
+        </section>
+
+        <!-- Courses Section -->
+        <section>
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 pb-2 border-b border-blue-100 rounded-sm">Courses</h2>
+            <ul class="list-disc ml-6 text-base space-y-1">
+                <li>In Progress: AWS Cloud Technical Essentials</li>
+                <li>In Progress: Professional Life Coach Certification & Guide (Accredited)</li>
+                <li>In Progress: AI Software Testing with Google Gemini</li>
+                <li>Project Initiation: Starting a Successful Project</li>
+                <li>Foundations of Project Management</li>
+                <li>Metadata: Organizing and Discovering Information</li>
+                <li>Inspiring Leadership through Emotional Intelligence</li>
+                <li>Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship</li>
+                <li>How To Build Tinder Clone with React Native & Firebase</li>
+                <li>Build A TodoList with Kotlin, Spring Boot and React</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
