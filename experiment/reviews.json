@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Weather Forecast API",
+    "site": "On Coursera",
+    "instructor": "By Whizlabs",
+    "description": "This is one of the courses that leads you to the first AWS Associate certification...",
+    "source": "https://medium.com"
+  },
+  {
+    "title": "Stock Market Data API",
+    "site": "On Coursera",
+    "instructor": "By Whizlabs",
+    "description": "API delivering real-time stock prices, company information, and market indices. Perfect for building financial tracking Android apps.",
+    "source": "https://financialdata.example.com/api"
+  },
+  {
+    "title": "Exercise Recognition API",
+    "site": "On Coursera",
+    "instructor": "By Whizlabs",
+    "description": "Uses device sensors to identify and track physical activities like running, cycling, or weight training. Ideal for fitness apps.",
+    "source": "https://motionapi.fit/detection/v2"
+  },
+  {
+    "title": "Augmented Reality Places API",
+    "site": "On Coursera",
+    "instructor": "By Whizlabs",
+    "description": "Returns AR markers and information about nearby points of interest. Works with Android ARCore for immersive experiences.",
+    "source": "https://ar-places-service.io/api/v1"
+  },
+  {
+    "title": "Language Translation API",
+    "site": "On Coursera",
+    "instructor": "By Whizlabs",
+    "description": "Perform real-time text translation between 100+ languages without internet connection using ML models optimized for Android.",
+    "source": "https://translate.local/api"
+  }
+]
