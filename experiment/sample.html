@@ -1,0 +1,56 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>JSON Items Display</title>
+  </head>
+  <body>
+      <h1>Items from JSON Array</h1>
+      <div id="itemsContainer">
+          <!-- JavaScript will populate this container -->
+      </div>
+
+      <script>
+          // Sample JSON string (you can replace this with dynamic data if needed)
+          const jsonString = `[
+              {
+                  "title": "Wear OS Tutorial 1",
+                  "description": "A beginner's guide to building your first Wear OS app with Kotlin.",
+                  "url": "https://developer.android.com/training/wearables"
+              },
+              {
+                  "title": "Wear OS Best Practices",
+                  "description": "Tips for creating efficient and user-friendly Wear OS interfaces.",
+                  "url": "https://developer.android.com/wear/best-practices"
+              },
+              {
+                  "title": "Mood Tracker Inspiration",
+                  "description": "Sample ideas for mood tracking apps on Wear OS, including UI designs.",
+                  "url": "https://medium.com/androiddevelopers/wear-os-mood-tracker-example"
+              }
+          ]`;
+
+          // Parse the JSON string into a JavaScript array
+          const items = JSON.parse(jsonString);
+
+          // Get the container element
+          const container = document.getElementById('itemsContainer');
+
+          // Iterate through the array and create HTML elements for each item
+          items.forEach((item, index) => {
+              // Create a div for each item
+              const itemDiv = document.createElement('div');
+              itemDiv.innerHTML = `
+                  <h2>${item.title}</h2>
+                  <p>${item.description}</p>
+                  <a href="${item.url}" target="_blank">Visit ${item.title}</a>
+              `;
+              // Add a class for easy styling
+              itemDiv.className = 'item';
+              container.appendChild(itemDiv);
+          });
+      </script>
+  </body>
+  </html>
+  
