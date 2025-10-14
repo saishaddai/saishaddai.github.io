@@ -1,0 +1,47 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>JSON Items Display</title>
+  </head>
+  <body>
+      <h1>Items from JSON Array</h1>
+      <div id="itemsContainer">
+          <!-- JavaScript will populate this container -->
+      </div>
+
+      <script>
+          // Fetch the JSON file
+          fetch('reviews.json')
+              .then(response => {
+                  if (!response.ok) {
+                      throw new Error('Network response was not ok');
+                  }
+                  return response.json();  // Parse the JSON from the response
+              })
+              .then(items => {
+                  // Get the container element
+                  const container = document.getElementById('itemsContainer');
+
+                  // Iterate through the array and create HTML elements for each item
+                  items.forEach((item, index) => {
+                      const itemDiv = document.createElement('div');
+                      itemDiv.innerHTML = `
+                          <h2>${item.title}</h2>
+                          <p>${item.site}</p>
+                          <a href="${item.source}" target="_blank">Visit ${item.instructor}</a>
+                      `;
+                      itemDiv.className = 'item';  // Add a class for styling
+                      container.appendChild(itemDiv);
+                  });
+              })
+              .catch(error => {
+                  console.error('There was a problem loading the JSON file:', error);
+                  // You can add a user-friendly error message here, e.g., display in the container
+                  document.getElementById('itemsContainer').innerHTML = '<p>Error loading data. Please check the file.</p>';
+              });
+      </script>
+  </body>
+  </html>
+  
