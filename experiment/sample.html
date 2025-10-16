@@ -1,56 +1,148 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>JSON Items Display</title>
-  </head>
-  <body>
-      <h1>Items from JSON Array</h1>
-      <div id="itemsContainer">
-          <!-- JavaScript will populate this container -->
-      </div>
+<!DOCTYPE html>
 
-      <script>
-          // Sample JSON string (you can replace this with dynamic data if needed)
-          const jsonString = `[
-              {
-                  "title": "Wear OS Tutorial 1",
-                  "description": "A beginner's guide to building your first Wear OS app with Kotlin.",
-                  "url": "https://developer.android.com/training/wearables"
-              },
-              {
-                  "title": "Wear OS Best Practices",
-                  "description": "Tips for creating efficient and user-friendly Wear OS interfaces.",
-                  "url": "https://developer.android.com/wear/best-practices"
-              },
-              {
-                  "title": "Mood Tracker Inspiration",
-                  "description": "Sample ideas for mood tracking apps on Wear OS, including UI designs.",
-                  "url": "https://medium.com/androiddevelopers/wear-os-mood-tracker-example"
-              }
-          ]`;
+<html class="dark" lang="en">
 
-          // Parse the JSON string into a JavaScript array
-          const items = JSON.parse(jsonString);
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>John Doe - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#007BFF",
+                        "background-light": "#F8F9FA",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
 
-          // Get the container element
-          const container = document.getElementById('itemsContainer');
+<body class="bg-background-light dark:bg-background-dark font-display">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <header
+                        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-b-[#233648] px-4 sm:px-10 py-3">
+                        <div class="flex items-center gap-4 text-gray-800 dark:text-white">
+                            <div class="size-6 text-primary">
+                                <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
+                                        fill="currentColor" fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <h2
+                                class="text-gray-800 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+                                John Doe</h2>
+                        </div>
+                        <div class="hidden sm:flex flex-1 justify-end gap-8">
+                            <div class="flex items-center gap-9">
+                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                    href="#">About</a>
+                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                    href="#">Projects</a>
+                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                    href="#">Contact</a>
+                            </div>
+                        </div>
+                    </header>
+                    <main class="mt-8 px-4 sm:px-6">
+                        <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-8">Experience</h1>
+                        <div class="space-y-12">
+                            <div
+                                class="flex flex-col sm:flex-row gap-4 p-6 rounded-lg hover:bg-white dark:hover:bg-gray-800/20 transition-all duration-300">
+                                <div class="flex-shrink-0">
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">Jan 2020 - Present</p>
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Senior Software
+                                        Engineer</h3>
+                                    <a class="inline-flex items-center gap-2 text-primary hover:underline" href="#">
+                                        Tech Solutions Inc.
+                                        <span class="material-symbols-outlined text-sm">open_in_new</span>
+                                    </a>
+                                    <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                                        Detailed paragraph outlining key responsibilities, technologies used, and
+                                        achievements. Led the development of a new microservices architecture, improving
+                                        system scalability and performance by 30%. Mentored junior engineers and
+                                        conducted code reviews to maintain high code quality standards.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col sm:flex-row gap-4 p-6 rounded-lg hover:bg-white dark:hover:bg-gray-800/20 transition-all duration-300">
+                                <div class="flex-shrink-0">
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">Jun 2018 - Dec 2019</p>
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Software Developer
+                                    </h3>
+                                    <a class="inline-flex items-center gap-2 text-primary hover:underline" href="#">
+                                        Innovative Web Co.
+                                        <span class="material-symbols-outlined text-sm">open_in_new</span>
+                                    </a>
+                                    <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                                        A paragraph outlining the role and contributions. Developed and maintained
+                                        features for a large-scale e-commerce platform using React and Node.js.
+                                        Collaborated with cross-functional teams to deliver high-quality software
+                                        solutions in an agile environment.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col sm:flex-row gap-4 p-6 rounded-lg hover:bg-white dark:hover:bg-gray-800/20 transition-all duration-300">
+                                <div class="flex-shrink-0">
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">May 2017 - May 2018</p>
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Junior Developer
+                                    </h3>
+                                    <a class="inline-flex items-center gap-2 text-primary hover:underline" href="#">
+                                        Startup Hub
+                                        <span class="material-symbols-outlined text-sm">open_in_new</span>
+                                    </a>
+                                    <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                                        A paragraph about initial responsibilities and learning experiences. Gained
+                                        foundational experience in web development by fixing bugs, implementing small
+                                        features, and learning best practices in a fast-paced startup environment.
+                                        Assisted senior developers in building and testing new applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
-          // Iterate through the array and create HTML elements for each item
-          items.forEach((item, index) => {
-              // Create a div for each item
-              const itemDiv = document.createElement('div');
-              itemDiv.innerHTML = `
-                  <h2>${item.title}</h2>
-                  <p>${item.description}</p>
-                  <a href="${item.url}" target="_blank">Visit ${item.title}</a>
-              `;
-              // Add a class for easy styling
-              itemDiv.className = 'item';
-              container.appendChild(itemDiv);
-          });
-      </script>
-  </body>
-  </html>
-  
+</html>
