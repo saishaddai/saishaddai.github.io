@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Personal Projects</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1173d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="flex flex-1 justify-center">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <header
+                        class="flex items-center justify-between whitespace-nowrap border-b border-solid dark:border-b-[#233648] border-b-gray-200 px-10 py-3">
+                        <div class="flex items-center gap-4 text-gray-800 dark:text-white">
+                            <div class="size-4 text-primary">
+                                <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </div>
+                            <h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Software Developer</h2>
+                        </div>
+                        <div class="flex flex-1 justify-end gap-8">
+                            <div class="flex items-center gap-9">
+                                <a class="text-gray-600 dark:text-gray-300 text-sm font-medium leading-normal"
+                                    href="#">Home</a>
+                                <a class="text-gray-600 dark:text-gray-300 text-sm font-medium leading-normal"
+                                    href="#">About</a>
+                                <a class="text-primary text-sm font-medium leading-normal" href="#">Projects</a>
+                                <a class="text-gray-600 dark:text-gray-300 text-sm font-medium leading-normal"
+                                    href="#">Contact</a>
+                            </div>
+                            <button
+                                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+                                <span class="truncate">Resume</span>
+                            </button>
+                        </div>
+                    </header>
+                    <main class="p-4 md:p-10">
+                        <div class="flex flex-wrap justify-between gap-3 p-4">
+                            <div class="flex min-w-72 flex-col gap-3">
+                                <p
+                                    class="text-gray-900 dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">
+                                    Personal Projects</p>
+                                <p class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal">A
+                                    collection of my work and experiments.</p>
+                            </div>
+                        </div>
+                        <div class="p-4 @container">
+                            <div
+                                class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-sm bg-white dark:bg-[#192633] hover:shadow-lg transition-shadow duration-300">
+                                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
+                                    data-alt="Abstract gradient from purple to blue"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBMOW-V4JKCxUTlwkwb6ifjzgp-gUEbVypXmVmrSaRTLJLY1ji1PJFg30936uGmBnQVomBaidx_i7z3FQmD_Fkj0kRmHhAeIJjNKzdkHA9SWNvbLKGC9pus-ojge-ov4nuRhRnTFuXJw-qsCDSwbn250IxeQA7uMXOOw_toQrD0vfj2-lQ9Ua7Oss1s14mCUVRmuyx6Xa60sYLo3Nc_SuylNZKf77RQvUbrPARK4kUaD5bcKtmvK1ePR9FuszFfoVRwVmXjHQqsn3OS");'>
+                                </div>
+                                <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-6">
+                                    <p
+                                        class="text-gray-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">
+                                        Project Title 1</p>
+                                    <p class="text-gray-600 dark:text-[#92adc9] text-base font-normal leading-normal">A
+                                        paragraph explaining the purpose, features, and challenges of the project. This
+                                        project aims to solve a real-world problem by leveraging modern web technologies
+                                        and a user-centric design approach.</p>
+                                    <div class="flex flex-wrap gap-2 mt-2">
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">React</span>
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Node.js</span>
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Express</span>
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">MongoDB</span>
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Tailwind
+                                            CSS</span>
+                                    </div>
+                                    <div class="flex items-center gap-4 mt-4">
+                                        <button
+                                            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-medium leading-normal gap-2">
+                                            <span class="truncate">View Project</span>
+                                            <span class="material-symbols-outlined text-base">arrow_forward</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 @container">
+                            <div
+                                class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-sm bg-white dark:bg-[#192633] hover:shadow-lg transition-shadow duration-300">
+                                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
+                                    data-alt="Abstract gradient from green to teal"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB3FcGt_g9LTLZeC7EO07DIIR4I_sC1yhSLxBAhqglSWsPIxBhRtMk7FtJ36nZFhpY_VR3yP65LBvQZ3Zte7wcwP-5P-R-hFoqexs0iRLToA4jp0a5DEx91EQhtQQohs0c39ynMyYRblwoP8XTWv2DOzNTeodfpSZswKmtKU-_FilM7et6RrbEq14xuKuZcp2dQpDVvbHd6OpwwHIw427UB43eQInYNual2ilh1Fd1CNCb-wl0yNSf3AavigOIYkyEQPIN4Y8vDd2bo");'>
+                                </div>
+                                <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-6">
+                                    <p
+                                        class="text-gray-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">
+                                        Project Title 2</p>
+                                    <p class="text-gray-600 dark:text-[#92adc9] text-base font-normal leading-normal">A
+                                        paragraph detailing the project's functionality and the user problem it solves.
+                                        It showcases a robust backend architecture and a clean, intuitive frontend for a
+                                        seamless user experience.</p>
+                                    <div class="flex flex-wrap gap-2 mt-2">
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Python</span>
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Django</span>
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">PostgreSQL</span>
+                                        <span
+                                            class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Heroku</span>
+                                    </div>
+                                    <div class="flex items-center gap-4 mt-4">
+                                        <button
+                                            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-medium leading-normal gap-2">
+                                            <span class="truncate">View Project</span>
+                                            <span class="material-symbols-outlined text-base">arrow_forward</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                    <footer
+                        class="flex flex-col gap-6 px-5 py-10 text-center @container border-t dark:border-t-[#233648] border-t-gray-200 mt-10">
+                        <div
+                            class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                href="#">Home</a>
+                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                href="#">About</a>
+                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                href="#">Contact</a>
+                        </div>
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <a href="#">
+                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span>
+                            </a>
+                            <a href="#">
+                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">group</span>
+                            </a>
+                            <a href="#">
+                                <span
+                                    class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">alternate_email</span>
+                            </a>
+                        </div>
+                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2023 Software
+                            Developer</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
