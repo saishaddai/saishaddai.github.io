@@ -67,11 +67,13 @@
                         <div class="hidden sm:flex flex-1 justify-end gap-8">
                             <div class="flex items-center gap-9">
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="#">About</a>
+                                    href="#">Links</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
                                     href="#">Projects</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="#">Contact</a>
+                                    href="#">Publications</a>
+                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                    href="#">Reviews</a>
                             </div>
                         </div>
                     </header>
@@ -86,26 +88,27 @@
                         <div
                             class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="#">Home</a>
+                                href="#">Links</a>
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="#">About</a>
+                                href="#">Projects</a>
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="#">Contact</a>
+                                href="#">Publications</a>
+                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                href="#">Reviews</a>
                         </div>
                         <div class="flex flex-wrap justify-center gap-4">
-                            <a href="#">
-                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span>
+                            <a title="Medium" href="https://medium.com/@saishaddai" target="_blank">
+                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">article</span> 
                             </a>
-                            <a href="#">
-                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">group</span>
+                            <a title="LinkedIn" href="https://www.linkedin.com/in/saidel-lopez/" target="_blank">
+                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">link</span> 
                             </a>
-                            <a href="#">
+                            <a title="GitHub" href="https://github.com/saishaddai" target="_blank">
                                 <span
-                                    class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">alternate_email</span>
+                                    class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span> 
                             </a>
                         </div>
-                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2025 Software
-                            Developer</p>
+                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2025 Saidel López</p>
                     </footer>
                 </div>
             </div>
@@ -113,7 +116,6 @@
     </div>
 
     <script>
-          // Fetch the JSON file
           fetch('./data/experience.json')
               .then(response => {
                   if (!response.ok) {
