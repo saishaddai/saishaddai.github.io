@@ -1,0 +1,50 @@
+[
+  {
+    "name": "LinkedIn",
+    "image": "url to LinkedIn image",
+    "url": "https://www.linkedin.com/in/saidel-lopez/",
+    "description": "This is my LinkedIn profile. I add regularly updates about my professional experience and skills."
+  }, 
+  {
+    "name": "Github",
+    "image": "url to Github image",
+    "url": "https://github.com/saishaddai",
+    "description": "This is my Github profile. I regularly push updates about my projects and contributions."
+  }, 
+  {
+    "name": "Android Developers Profile",
+    "image": "url to Android Developers image",
+    "url": "https://developer.android.com",
+    "description": "This is my Android Developers profile. I share updates about my Android development projects and contributions."
+  }, 
+  {
+    "name": "Test Automation University Profile",
+    "image": "url to Test Automation University image",
+    "url": "https://testautomationu.applitools.com/",
+    "description": "This is my Test Automation University profile. I share updates about my test automation education"
+  }, 
+  {
+    "name": "Udemy",
+    "image": "url to Udemy image",
+    "url": "https://www.udemy.com/user/saidel-lopez/",
+    "description": "This is my Udemy profile. I share updates about my courses and educational content."
+  },
+  {
+    "name": "Coursera",
+    "image": "url to Coursera image",
+    "url": "https://www.coursera.org/user/saidel-lopez/",
+    "description": "This is my Coursera profile. I share updates about my courses and educational content."
+  },
+  {
+    "name": "Deep Learning AI",
+    "image": "url to Deep Learning AI image",
+    "url": "https://www.deeplearning.ai/",
+    "description": "This is my Deep Learning AI profile. I share updates about my courses and educational content."
+  },
+  {
+    "name": "Microsoft Learn",
+    "image": "url to Microsoft Learn image",
+    "url": "https://learn.microsoft.com/en-us/users/saidel-lopez/",
+    "description": "This is my Microsoft Learn profile. I share updates about my courses and educational content."
+  }
+]
