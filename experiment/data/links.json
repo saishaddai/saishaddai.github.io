@@ -14,13 +14,13 @@
   {
     "name": "Android Developers Profile",
     "image": "url to Android Developers image",
-    "url": "https://developer.android.com",
+    "url": "https://developers.google.com/profile/u/saishadda1",
     "description": "This is my Android Developers profile. I share updates about my Android development projects and contributions."
   }, 
   {
     "name": "Test Automation University Profile",
     "image": "url to Test Automation University image",
-    "url": "https://testautomationu.applitools.com/",
+    "url": "https://testautomationu.applitools.com/me.html#saishaddai",
     "description": "This is my Test Automation University profile. I share updates about my test automation education"
   }, 
   {
@@ -34,12 +34,6 @@
     "image": "url to Coursera image",
     "url": "https://www.coursera.org/user/saidel-lopez/",
     "description": "This is my Coursera profile. I share updates about my courses and educational content."
-  },
-  {
-    "name": "Deep Learning AI",
-    "image": "url to Deep Learning AI image",
-    "url": "https://www.deeplearning.ai/",
-    "description": "This is my Deep Learning AI profile. I share updates about my courses and educational content."
   },
   {
     "name": "Microsoft Learn",

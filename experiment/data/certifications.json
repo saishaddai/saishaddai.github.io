@@ -1,37 +1,107 @@
 [
   {
-    "title": "Weather Forecast API",
-    "site": "On Coursera",
-    "instructor": "By Whizlabs",
-    "description": "This is one of the courses that leads you to the first AWS Associate certification...",
-    "source": "https://medium.com"
+    "title": "Gen AI Training Path: Technical Track",
+    "completed": "Completed on: August, 2025",
+    "instructor": "Via Coursera",
+    "description": "AI Learning paths set by Encora Inc",
+    "source": ""
   },
   {
-    "title": "Stock Market Data API",
-    "site": "On Coursera",
-    "instructor": "By Whizlabs",
-    "description": "API delivering real-time stock prices, company information, and market indices. Perfect for building financial tracking Android apps.",
-    "source": "https://financialdata.example.com/api"
+    "title": "AI-Powered Software and System Design",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Deep Learning via Coursera",
+    "source": "https://www.coursera.org/account/accomplishments/badge/PnTE9qqtSOy0xPaqrTjs6g"
   },
   {
-    "title": "Exercise Recognition API",
-    "site": "On Coursera",
-    "instructor": "By Whizlabs",
-    "description": "Uses device sensors to identify and track physical activities like running, cycling, or weight training. Ideal for fitness apps.",
-    "source": "https://motionapi.fit/detection/v2"
+    "title": "Team Software Engineering with AI",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Deep Learning via Coursera",
+    "source": "https://coursera.org/share/d380ca04a5d436b9f202debe486008a6"
   },
   {
-    "title": "Augmented Reality Places API",
-    "site": "On Coursera",
-    "instructor": "By Whizlabs",
-    "description": "Returns AR markers and information about nearby points of interest. Works with Android ARCore for immersive experiences.",
-    "source": "https://ar-places-service.io/api/v1"
+    "title": "Introduction to Generative AI for Software Development",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Deep Learning via Coursera",
+    "source": "https://www.coursera.org/learn/introduction-to-generative-ai-for-software-development/"
   },
   {
-    "title": "Language Translation API",
-    "site": "On Coursera",
-    "instructor": "By Whizlabs",
-    "description": "Perform real-time text translation between 100+ languages without internet connection using ML models optimized for Android.",
-    "source": "https://translate.local/api"
+    "title": "LangChain for LLM Application Development",
+    "completed": "Completed on: August, 2025",
+    "instructor": "Via Deep Learning AI",
+    "description": "Course by Deep Learning introduction to LangChain for LLM Application Development",
+    "source": "https://learn.deeplearning.ai/accomplishments/6c3b8b89-277c-4301-b525-3e2d4eb287ae"
+  },
+  {
+    "title": "Gen AI Training Path: Foundational",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "AI Learning paths set by Encora Inc",
+    "source": "https://coursera.org/share/b917490d4223d2d553a80f6a1d4d08e0"
+  },
+  {
+    "title": "Advanced Prompt Engineering for Everyone",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Vanderbilt University via Coursera",
+    "source": "https://coursera.org/share/202cfb178f80d77c149ed4e8fc1c22de"
+  },
+  {
+    "title": "Generative AI: Prompt Engineering Basics",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by IBM via Coursera",
+    "source": "https://coursera.org/share/01308a42b660d2bcbd3739da5f8caeae"
+  }, 
+  {
+    "title": "Generative AI with Large Models",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Deep Learning",
+    "source": "https://coursera.org/share/70f75b1564139367b90b988082b8cec3"
+  }, 
+  {
+    "title": "AWS: Compute and Storage",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Deep Learning AI via Coursera",
+    "source": "https://www.coursera.org/account/accomplishments/verify/H7ESPIDPP8T8"
+  }, 
+  {
+    "title": "Generative AI for Everyone",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Deep Learning AI via Coursera",
+    "source": "https://coursera.org/share/91d98ce286285527210483c2705cf908"
+  }, 
+  {
+    "title": "AI Software Testing with Gemini",
+    "completed": "Completed on: July, 2025",
+    "instructor": "Via Udemy",
+    "description": "Course by Dan Andrei Bucureanu",
+    "source": "http://ude.my/UC-367fc786-3390-4df8-ac5c-9c24c960145a"
+  },
+  {
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "completed": "Completed on: June, 2025",
+    "instructor": "Via Deep Learning AI",
+    "description": "Course by AWS via Coursera",
+    "source": "https://learn.deeplearning.ai/accomplishments/16631437-8c69-4a2c-846a-7d5c952eed44?usp=sharing"
+  }, 
+  {
+    "title": "Exam Prep: AWS Certified SysOps Administrator - Associate Specialization",
+    "completed": "Completed on: June, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Whizlabs Instructors",
+    "source": "https://www.coursera.org/account/accomplishments/verify/F9NEV4RQNP2I"
+  }, 
+  {
+    "title": "AWS Cloud Technical Essentials",
+    "completed": "Completed on: May, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course by Amazon Web Services",
+    "source": "https://www.coursera.org/account/accomplishments/verify/EBN6IPX4UZEY"
   }
 ]
