@@ -1,44 +1,66 @@
 [
   {
     "name": "LinkedIn",
-    "image": "url to LinkedIn image",
+    "go_to": "Go to my LinkedIn Profile",
+    "type": "communication",
     "url": "https://www.linkedin.com/in/saidel-lopez/",
-    "description": "This is my LinkedIn profile. I add regularly updates about my professional experience and skills."
+    "description": "This is my LinkedIn profile. I add regularly updates about my professional experience, courses, certifications and new skills. This is also a good way to communicate with me. I'm not openly looking for new opportunities but I will gladly help you to connect with all my network."
   }, 
   {
-    "name": "Github",
-    "image": "url to Github image",
+    "name": "GitHub",
+    "go_to": "Go to my GitHub Dashboard",
+    "type": "code",
     "url": "https://github.com/saishaddai",
-    "description": "This is my Github profile. I regularly push updates about my projects and contributions."
+    "description": "This is my GitHub Dashboard. I regularly push updates about my personal projects and contributions. I'm currently learning Kotlin Multiplatform and updating this site preety often. Even so, I also have Java, Kotlin, Android, and some experiments in other languages. Feel free to check my repositories and reach out if you have any questions or suggestions."
   }, 
   {
-    "name": "Android Developers Profile",
-    "image": "url to Android Developers image",
+    "name": "Android Developers",
+    "go_to": "Go to my Android Developers Profile",
+    "type": "android",
     "url": "https://developers.google.com/profile/u/saishadda1",
-    "description": "This is my Android Developers profile. I share updates about my Android development projects and contributions."
+    "description": "There's not too much to show here. Android provides a lot of courses, career paths, challenges and resources to learn from. This site only holds the badges you earn for each completed course. Feel free to check any other resources that might help you. This is not just for Developers anyway."
   }, 
   {
-    "name": "Test Automation University Profile",
-    "image": "url to Test Automation University image",
+    "name": "Excersim",
+    "go_to": "Go to my Excersism Profile",
+    "type": "toys_and_games",
+    "url": "https://exercism.org/profiles/saishaddai",
+    "description": "This is a  site about code challenges in different programming languages. I use it to practice and learn new languages and paradigms. Although I'm not very active here, I have completed several exercises in languages like SQL, Java, Kotlin, PHP, and Typescript. Feel free to check my profile and the exercises I have completed."
+  },
+  {
+    "name": "Test Automation University",
+    "go_to": "Go to my Test Automation University Profile",
+    "type": "play_lesson",
     "url": "https://testautomationu.applitools.com/me.html#saishaddai",
-    "description": "This is my Test Automation University profile. I share updates about my test automation education"
+    "description": "This site has a lot of free courses about Test Automation, QA, DevOps and related topics. Although I'm not proficient in automation, there's a lot I've learned from this site to broaden my knowledge. I have completed several courses here and earned badges for each one. Feel free to check my profile and the courses I have taken."
   }, 
   {
     "name": "Udemy",
-    "image": "url to Udemy image",
+    "go_to": "Go to my Udemy Profile",
+    "type": "play_lesson",
     "url": "https://www.udemy.com/user/saidel-lopez/",
-    "description": "This is my Udemy profile. I share updates about my courses and educational content."
+    "description": "Most of my online education has been through Udemy. I have taken courses on various topics, including programming, data science, and cloud computing. Udemy offers a wide range of courses, and I have found it to be a valuable resource for learning new skills. I'm currently taking a course about Kotlin Multiplatform and other one about Jetpack Compose in Android. Feel free to check my profile and the courses I have taken."
   },
   {
     "name": "Coursera",
-    "image": "url to Coursera image",
+    "go_to": "Go to my Coursera Profile",
+    "type": "play_lesson",
     "url": "https://www.coursera.org/user/saidel-lopez/",
-    "description": "This is my Coursera profile. I share updates about my courses and educational content."
+    "description": "Originally I started my education online here. I started by taking a course about classification of contents from the Library of the Congress because there was nothing about Data Science. Right now, I use it to take some specialized courses about AWS and AI. Feel free to check my profile and the courses I have taken."
   },
   {
     "name": "Microsoft Learn",
-    "image": "url to Microsoft Learn image",
+    "go_to": "Go to my Microsoft Learn Profile",
+    "type": "play_lesson",
     "url": "https://learn.microsoft.com/en-us/users/saidel-lopez/",
-    "description": "This is my Microsoft Learn profile. I share updates about my courses and educational content."
+    "description": "Quite similar to Android Site. Microsoft offers a lot of resources to learn all about their technologies. Since this page is built using mostly Github, CodeSpaces and pure Javascript and HTML, well, there's a lot I learned from Microsoft learning paths. Feel free to check my profile and the courses I have taken."
+  },
+  {
+    "name": "Medium",
+    "go_to": "Go to my Medium List of Articles",
+    "type": "article",
+    "url": "https://medium.com/@saishaddai",
+    "description": "I started this account to set up my notes from what I learned everyday. Some place I can go back whenever I wanted to check a great solution I implemented or something I wanted to remember. Somehow I have followers. I try to recover this habit of writing more often."
   }
+
 ]

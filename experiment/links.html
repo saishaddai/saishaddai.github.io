@@ -117,7 +117,7 @@
     </div>
 
     <script>
-          fetch('./data/experience.json')
+          fetch('./data/links.json')
               .then(response => {
                   if (!response.ok) {
                       throw new Error('Network response was not ok');
@@ -138,17 +138,17 @@
                         const timelineDiv = document.createElement('div');
                         timelineDiv.className = 'flex-shrink-0';
                         timelineDiv.innerHTML = `
-                            <p class="text-sm text-gray-500 dark:text-gray-400">${item.timeline}</p>
+                            <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">${item.type}</span>
                         `;
                         wrapperDiv.appendChild(timelineDiv);
-                        
+
                         // Create the main content div that contains title, company link, and description
                         const contentDiv = document.createElement('div');
                         contentDiv.className = 'flex-1';
                         contentDiv.innerHTML = `
-                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">${item.title}</h3>
+                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">${item.name}</h3>
                             <a class="inline-flex items-center gap-2 text-primary hover:underline" href="${item.url}" target="_blank">
-                                ${item.company}
+                                ${item.go_to}
                                 <span class="material-symbols-outlined text-sm">open_in_new</span>
                             </a>
                             <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">${item.description}</p>
