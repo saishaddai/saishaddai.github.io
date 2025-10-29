@@ -2,21 +2,21 @@
   {
     "title": "Library Review: ShowCaseView for Androi",
     "url": "https://medium.com/@saishaddai/library-review-showcaseview-for-android-dde60c25294c",
-    "date": "March 2, 2020",
+    "date": "Mar 02, 2020",
     "media": "At Medium",
     "description": "ShowcaseView is a library to create targeted prompts to show little explanations given a coordinated position in the screen. It is limited in customization in order to improve its easiness to implement."
   }, 
   {
     "title": "Library Review: Material Tap Target Prompt for Android",
     "url": "https://medium.com/@saishaddai/library-review-material-tap-target-prompt-for-android-69171c9f95d8",
-    "date": "February 24, 2020",
+    "date": "Feb 24, 2020",
     "media": "At Medium",
     "description": "Material Tap Target Prompt allows you to see create targeted prompts to show little explanations of certain visible items in the screen. It also allows some customization such as background, font colors and gravity of the texts."
   },
   {
     "title": "Plurals in Kotlin without 3rd party libraries",
     "url": "https://medium.com/@saishaddai/plurals-in-kotlin-without-3rd-party-libraries-c8d523b4f3d9",
-    "date": "February 18, 2020",
+    "date": "Feb 18, 2020",
     "media": "At Medium",
     "description": "Singular/Plural text is a very common problem in programming since the first days of GUI's. Reason is that it is an unforgiven grammatical error to say “1 items in stock” instead of “1 item in stock”. In this post I'll bring different approaches to fix this."
   }
