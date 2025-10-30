@@ -103,5 +103,19 @@
     "instructor": "Via Coursera",
     "description": "Course by Amazon Web Services. This course is the real big picture of everything that AWS offers. It covers all the main services and products of AWS, giving a good overview of the cloud computing platform.",
     "source": "https://www.coursera.org/account/accomplishments/verify/EBN6IPX4UZEY"
+  }, 
+  {
+   "title": "Project Initiation: Starting a Successful Project",
+    "completed": "Oct, 2023",
+    "instructor": "Via Coursera",
+    "description": "Second of 5 courses in the Google Project Management: Professional Certificate. This course focuses on the initiation phase of a project, covering key activities such as defining project goals, identifying stakeholders, and developing a project charter.",
+    "source": "https://www.coursera.org/account/accomplishments/verify/M8N7WH52VTKW"
+  },
+  {
+    "title": "Foundations of Project Management",
+    "completed": "Sep, 2023",
+    "instructor": "Via Coursera",
+    "description": "First of 5 courses in the Google Project Management: Professional Certificate. This course covers the fundamentals of project management, including key concepts, methodologies, and tools used in the field.",
+    "source": "https://www.coursera.org/account/accomplishments/verify/Q9CXPBFN8FND"
   }
 ]
