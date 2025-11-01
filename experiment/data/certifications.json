@@ -1,10 +1,24 @@
 [
   {
-    "title": "Gen AI Training Path: Technical Track",
-    "completed": "Aug, 2025",
+    "title": "Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI",
+    "completed": "Oct, 2025",
     "instructor": "Via Coursera",
-    "description": "AI Learning paths set by Encora Inc",
-    "source": ""
+    "description": "Course provided by IBM. This is the third part of AI Agents path by IBM. This course focus on design optimized AI systems by selecting and combining appropriate agentic frameworks and architectural patterns with LangChain and LangGraph. It uses structured multi-agent workflows using CrewAI, BeeAI and design conversation-driven interactions using AG2 (AutoGen) .",
+    "source": "https://www.coursera.org/account/accomplishments/verify/J7P37OO47WZP"
+  },
+  {
+    "title": "Agentic AI with LangChain and LangGraph",
+    "completed": "Oct, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course provided by IBM. This is the second part of AI Agents by IBM. This course focus on build agentic AI systems using LangChain and LangGraph to support memory, iteration, and conditional logic ",
+    "source": "https://www.coursera.org/account/accomplishments/verify/ZFPQE63QFQHY"
+  },
+  {
+    "title": "Fundamentals of AI Agents Using RAG and LangChain",
+    "completed": "Sep, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course provided by IBM. This is a course to start working with RAG as a way to train LLMs. It uses LangChain and Python with simple examples and challenges to accomplish.",
+    "source": "https://www.coursera.org/account/accomplishments/verify/J7P37OO47WZP"
   },
   {
     "title": "AI-Powered Software and System Design",
