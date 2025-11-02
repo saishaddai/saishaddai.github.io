@@ -1,17 +1,51 @@
 [
   {
+    "title": "GenAI Training Path - Agentic Track",
+    "completed": "Oct, 2025",
+    "instructor": "Via Coursera",
+    "description": "Third part of the Encora Inc. AI Learning paths. This learning path is focused on AI Agents concepts and applications. It covers advanced concepts about LLMs, RAG, AI agents, LangChain and prompt engineering techniques for developers.",
+    "source": "https://www.coursera.org/account/accomplishments/badge/rCEn_fB1TvOhJ_3wdY7zOA"
+  },
+  {
     "title": "Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI",
     "completed": "Oct, 2025",
     "instructor": "Via Coursera",
-    "description": "Course provided by IBM. This is the third part of AI Agents path by IBM. This course focus on design optimized AI systems by selecting and combining appropriate agentic frameworks and architectural patterns with LangChain and LangGraph. It uses structured multi-agent workflows using CrewAI, BeeAI and design conversation-driven interactions using AG2 (AutoGen) .",
+    "description": "Course provided by IBM. This is the third part of AI Agents path by IBM. This course focus on design optimized AI systems by selecting and combining appropriate agentic frameworks and architectural patterns with LangChain and LangGraph. It uses structured multi-agent workflows using CrewAI, BeeAI and design conversation-driven interactions using AG2 (AutoGen).",
     "source": "https://www.coursera.org/account/accomplishments/verify/J7P37OO47WZP"
   },
   {
     "title": "Agentic AI with LangChain and LangGraph",
     "completed": "Oct, 2025",
     "instructor": "Via Coursera",
-    "description": "Course provided by IBM. This is the second part of AI Agents by IBM. This course focus on build agentic AI systems using LangChain and LangGraph to support memory, iteration, and conditional logic ",
+    "description": "Course provided by IBM. This is the second part of AI Agents by IBM. This course focus on build agentic AI systems using LangChain and LangGraph to support memory, iteration, and conditional logic.",
     "source": "https://www.coursera.org/account/accomplishments/verify/ZFPQE63QFQHY"
+  },
+  {
+    "title": "AWS: Database",
+    "completed": "Sep, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course provided by AWS. This course covers the fundamentals of database services in AWS (DynamoDB, Amazon RDS, Amazon RDB for Redis), including design, deployment, and management.",
+    "source": "https://www.coursera.org/account/accomplishments/verify/07LK7SUK5L9N"
+  },{
+    "title": "AWS: Security, Management and Governance",
+    "completed": "Sep, 2025",
+    "instructor": "Via Coursera",
+    "description": "",
+    "source": "https://www.coursera.org/account/accomplishments/verify/H6LIABG95TXQ"
+  },
+  {
+    "title": "AWS: Security, Management and Governance",
+    "completed": "Sep, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course provided by AWS. This course covers the all about of security, management, and governance services in AWS, including Identity and Access Management (IAM), KMS, Cognito, AWS Organizations, AWS CloudTrail, and AWS Config.",
+    "source": "https://www.coursera.org/account/accomplishments/verify/H6LIABG95TXQ"
+  },
+  {
+    "title": "AWS: Networking and Content Delivery",
+    "completed": "Sep, 2025",
+    "instructor": "Via Coursera",
+    "description": "Course provided by AWS. This course covers networking and content delivery services in AWS, including VPC, Route 53, CloudFront, and API Gateway.",
+    "source": "https://www.coursera.org/account/accomplishments/verify/RA7BLIX7IWRA"
   },
   {
     "title": "Fundamentals of AI Agents Using RAG and LangChain",
@@ -19,6 +53,20 @@
     "instructor": "Via Coursera",
     "description": "Course provided by IBM. This is a course to start working with RAG as a way to train LLMs. It uses LangChain and Python with simple examples and challenges to accomplish.",
     "source": "https://www.coursera.org/account/accomplishments/verify/J7P37OO47WZP"
+  },
+  {
+    "title": "Gen AI Training Path - Technical Track",
+    "completed": "Aug, 2025",
+    "instructor": "Via Coursera",
+    "description": "Second part of the Encora Inc. AI Learning paths. This learning path is more technical and developer oriented. It covers advanced concepts about LLMs, RAG, AI agents, LangChain and prompt engineering techniques for developers.",
+    "source": "https://www.coursera.org/account/accomplishments/badge/PnTE9qqtSOy0xPaqrTjs6g"
+  },
+  {
+    "title": "LangChain for LLM Application Development",
+    "completed": "Aug, 2025",
+    "instructor": "Via Deep Learning AI",
+    "description": "Course by Deep Learning introduction to LangChain for LLM Application Development. LLM is used to build applications powered by language models. Not my fav language, Python, but good to understand the concepts.",
+    "source": "https://learn.deeplearning.ai/accomplishments/6c3b8b89-277c-4301-b525-3e2d4eb287ae"
   },
   {
     "title": "AI-Powered Software and System Design",
@@ -42,17 +90,10 @@
     "source": "https://www.coursera.org/learn/introduction-to-generative-ai-for-software-development/"
   },
   {
-    "title": "LangChain for LLM Application Development",
-    "completed": "Aug, 2025",
-    "instructor": "Via Deep Learning AI",
-    "description": "Course by Deep Learning introduction to LangChain for LLM Application Development. LLM is used to build applications powered by language models. Not my fav language, Python, but good to understand the concepts.",
-    "source": "https://learn.deeplearning.ai/accomplishments/6c3b8b89-277c-4301-b525-3e2d4eb287ae"
-  },
-  {
     "title": "Gen AI Training Path: Foundational",
     "completed": "Jul, 2025",
     "instructor": "Via Coursera",
-    "description": "AI Learning paths set by Encora Inc. First learning path about Generative AI concepts and applications.",
+    "description": "AI Learning paths set by Encora Inc. First learning path about Generative AI concepts and applications. It includes a set of courses, short videos and readable content to understand the basics of LLM, prompt engineering and AI ethics.",
     "source": "https://coursera.org/share/b917490d4223d2d553a80f6a1d4d08e0"
   },
   {
@@ -98,6 +139,13 @@
     "source": "http://ude.my/UC-367fc786-3390-4df8-ac5c-9c24c960145a"
   },
   {
+    "title": "AWS: Containers and Developer Tools",
+    "completed": "Jun, 2025",
+    "instructor": "Via Coursera",
+    "description": "AWS Certified Developer - Associate certification. This is my second AWS certification after the AWS Certified Cloud Practitioner. This certification validates my knowledge and skills in developing and maintaining applications on the AWS platform.",
+    "source": "https://www.coursera.org/account/accomplishments/verify/F9NEV4RQNP2I"
+  }
+  {
     "title": "ChatGPT Prompt Engineering for Developers",
     "completed": "Jun, 2025",
     "instructor": "Via Deep Learning AI",
@@ -131,5 +179,19 @@
     "instructor": "Via Coursera",
     "description": "First of 5 courses in the Google Project Management: Professional Certificate. This course covers the fundamentals of project management, including key concepts, methodologies, and tools used in the field.",
     "source": "https://www.coursera.org/account/accomplishments/verify/Q9CXPBFN8FND"
+  }, 
+  {
+    "title": "Developing Innovative Ideas for New Companies:The First Step in Entrepreneurship",
+    "completed": "Mar, 2014",
+    "instructor": "Via Coursera",
+    "description": "Course by University of Maryland. This course explores how to identify and evaluate opportunities based on real customer needs, develop solid business models, and create successful companies.",
+    "source": "https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972006~4605929/pdf"
+  }, 
+  {
+    "title": "Inspiring Leadership through Emotional Intelligence",
+    "completed": "Jan, 2014",
+    "instructor": "Via Coursera",
+    "description": "The course examines effective leadership through emotional intelligence. Behavioral and neuroscience evidence will be offered, with personal exercises and cases, to illustrate and explore these inspiring relationships.",
+    "source": "https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/971106~4605929/pdf"
   }
 ]
