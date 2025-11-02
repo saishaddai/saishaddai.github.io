@@ -30,7 +30,7 @@
     "title": "AWS: Security, Management and Governance",
     "completed": "Sep, 2025",
     "instructor": "Via Coursera",
-    "description": "",
+    "description": "Course provided by AWS. This course covers the all about of security, management, and governance services in AWS, including Identity and Access Management (IAM), KMS, Cognito, AWS Organizations, AWS CloudTrail, and AWS Config.",
     "source": "https://www.coursera.org/account/accomplishments/verify/H6LIABG95TXQ"
   },
   {
@@ -144,7 +144,7 @@
     "instructor": "Via Coursera",
     "description": "AWS Certified Developer - Associate certification. This is my second AWS certification after the AWS Certified Cloud Practitioner. This certification validates my knowledge and skills in developing and maintaining applications on the AWS platform.",
     "source": "https://www.coursera.org/account/accomplishments/verify/F9NEV4RQNP2I"
-  }
+  },
   {
     "title": "ChatGPT Prompt Engineering for Developers",
     "completed": "Jun, 2025",
