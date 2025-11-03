@@ -179,7 +179,14 @@
     "instructor": "Via Coursera",
     "description": "First of 5 courses in the Google Project Management: Professional Certificate. This course covers the fundamentals of project management, including key concepts, methodologies, and tools used in the field.",
     "source": "https://www.coursera.org/account/accomplishments/verify/Q9CXPBFN8FND"
-  }, 
+  },
+  {
+    "title": "How to build Tinder with React Native and Expo",
+    "completed": "Apr, 2019",
+    "instructor": "Via Udemy",
+    "description": "The course is an introduction to React Native, Firebase and Expo tools. Altough is not the focus to implement the whole functionality of the original app, it iuncludes basic reading from a persistent media (Firebase), accept or deny a contact and store the selections in session memory. It also simplifies the look and feel of the app by using Expo to build the UI",
+    "source": "https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/971106~4605929/pdf"
+  },
   {
     "title": "Developing Innovative Ideas for New Companies:The First Step in Entrepreneurship",
     "completed": "Mar, 2014",
