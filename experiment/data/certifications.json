@@ -1,5 +1,12 @@
 [
   {
+    "title": "Build a TODO List with Kotlin, Spring Boot and React",
+    "completed": "Oct, 2025",
+    "instructor": "Via Udemy",
+    "description": "I sed this course to come bacck to backend development and refresh my knowledge on Spring and Spring Boot. Although it is not focused at all in React, it cover the minimum to show a basic but responsive UI.",
+    "source": "https://www.udemy.com/certificate/UC-d610e71c-5eb4-4921-a425-b4b7a8f2d8c8/"
+  },
+  {
     "title": "GenAI Training Path - Agentic Track",
     "completed": "Oct, 2025",
     "instructor": "Via Coursera",
@@ -48,6 +55,13 @@
     "source": "https://www.coursera.org/account/accomplishments/verify/RA7BLIX7IWRA"
   },
   {
+    "title": "Career Coaching: Life Coach Certification",
+    "completed": "Sep, 2025",
+    "instructor": "Via Udemy",
+    "description": "This course covers career coaching. It helped me to build better plans of inprovement and continuous trainign. Although is not completely related to a manager role, I was able to take the best of it and integrated to my chores",
+    "source": "https://www.udemy.com/certificate/UC-87d90ccf-a14e-4feb-8962-ff2d868cf33d/"
+  },
+  {
     "title": "Fundamentals of AI Agents Using RAG and LangChain",
     "completed": "Sep, 2025",
     "instructor": "Via Coursera",
@@ -67,6 +81,20 @@
     "instructor": "Via Deep Learning AI",
     "description": "Course by Deep Learning introduction to LangChain for LLM Application Development. LLM is used to build applications powered by language models. Not my fav language, Python, but good to understand the concepts.",
     "source": "https://learn.deeplearning.ai/accomplishments/6c3b8b89-277c-4301-b525-3e2d4eb287ae"
+  },
+  {
+    "title": "Git and GitHub for Begginers",
+    "completed": "Aug, 2025",
+    "instructor": "Via Udemy",
+    "description": "I used this course as a refresher for Git and Github. I complemented this course with the full path on Microsoft Learn courses that covers more topics such as Github Actions, Code Spaces and Github Copilot. Not a course I would recomend.",
+    "source": "https://www.udemy.com/certificate/UC-53ba422b-c345-4efd-afc8-a0556e9a195e/"
+  },
+  {
+    "title": "Professional Life Coach Certification & Guide",
+    "completed": "Aug, 2025",
+    "instructor": "Via Udemy",
+    "description": "This course covers a certification program for Life Coaching. It provides good techniques and tips to build successful teams. It helped me to build better ways to talk directly with individuals to help them improve their performance and communication.",
+    "source": "https://www.udemy.com/certificate/UC-811c38a6-dd87-487e-b2c8-7e4953eea3a5/"
   },
   {
     "title": "AI-Powered Software and System Design",
