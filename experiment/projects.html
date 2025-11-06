@@ -176,7 +176,7 @@
                         const infoContainerDiv = document.createElement('div');
                         infoContainerDiv.className = 'flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-sm bg-white dark:bg-[#192633] hover:shadow-lg transition-shadow duration-300';                        
                         infoContainerDiv.innerHTML = `
-                            <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
+                                    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
                                         data-alt="Abstract gradient from purple to blue"
                                         style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBMOW-V4JKCxUTlwkwb6ifjzgp-gUEbVypXmVmrSaRTLJLY1ji1PJFg30936uGmBnQVomBaidx_i7z3FQmD_Fkj0kRmHhAeIJjNKzdkHA9SWNvbLKGC9pus-ojge-ov4nuRhRnTFuXJw-qsCDSwbn250IxeQA7uMXOOw_toQrD0vfj2-lQ9Ua7Oss1s14mCUVRmuyx6Xa60sYLo3Nc_SuylNZKf77RQvUbrPARK4kUaD5bcKtmvK1ePR9FuszFfoVRwVmXjHQqsn3OS");'>
                                     </div>
@@ -190,6 +190,16 @@
                                             ${item.title}</p>
                                     <p class="text-gray-600 dark:text-[#92adc9] text-base font-normal leading-normal">${item.description}</p>
                         `;
+
+                        const stackDiv = document.createElement('div');
+                        stackDiv.className = 'flex flex-wrap gap-2 mt-2';
+                        item.stack.forEach(tech => {
+                            const techSpan = document.createElement('span');
+                            techSpan.className = 'text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1';
+                            techSpan.textContent = tech;
+                            stackDiv.appendChild(techSpan);
+                        });
+                        rightPaneDiv.appendChild(stackDiv);
 
                         const buttonContainerDiv = document.createElement('div');
                         buttonContainerDiv.className = 'flex items-center gap-4 mt-4';
