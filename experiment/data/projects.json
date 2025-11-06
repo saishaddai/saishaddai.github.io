@@ -3,21 +3,28 @@
     "title": "TODO List", 
     "description": "During 2025 I tried to work on other stacks trying to get the latest from Spring in a backend project",
     "link": "https://github.com/saishaddai/TODO-List",
-    "type": "Backend",
+    "type-image": "https://saishaddai.github.io/images/backend_kotlin_generic.png",
     "stack" : ["Java", "Spring", "SpringBoot", "H1"]
   }, 
   {
     "title": "Flashcards", 
     "description": "Mostly based on the Study, I created this project to study basics of programming during the day. It shows 20 cards randomly selected. I want to add an UI fully in Jetpack compose",
     "link": "https://github.com/saishaddai/Flashcards",
-    "type": "Android",
+    "type-image": "https://saishaddai.github.io/images/android_generic.png",
     "stack" : ["Android", "Kotlin", "XML UI", "Fragments", "Offline"]
   }, 
   {
     "title": "Study", 
     "description": "This is very basic script to retrieve randomly a line of a file where programming questions are stored. Specifically, each time is called, it will throw you a different question each time. I think I should put more attention oto this projects and make it grow a little",
     "link": "https://github.com/saishaddai/Study",
-    "type": "Bash",
+    "type-image": "https://saishaddai.github.io/images/html_generic.png",
     "stack" : ["Bash"]
+  }, 
+  {
+    "title": "Personal Website", 
+    "description": "This is my personal website where I share my experience, projects and blog posts. It is built with completely with vanilla JS, Tailwind CSS and HTML and hosted on GitHub Pages.",
+    "link": "https://github.com/saishaddai/saishaddai.github.io",
+    "type-image": "https://saishaddai.github.io/images/html_generic.png",
+    "stack" : ["HTML", "JavaScript", "TailwindCSS", "GitHub Pages"]
   }
 ]

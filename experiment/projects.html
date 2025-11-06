@@ -81,44 +81,7 @@
                             </div>
                         </div>
                         <div id="projects-container">
-                            <div class="p-4 @container">
-                                <div
-                                    class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-sm bg-white dark:bg-[#192633] hover:shadow-lg transition-shadow duration-300">
-                                    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
-                                        data-alt="Abstract gradient from purple to blue"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBMOW-V4JKCxUTlwkwb6ifjzgp-gUEbVypXmVmrSaRTLJLY1ji1PJFg30936uGmBnQVomBaidx_i7z3FQmD_Fkj0kRmHhAeIJjNKzdkHA9SWNvbLKGC9pus-ojge-ov4nuRhRnTFuXJw-qsCDSwbn250IxeQA7uMXOOw_toQrD0vfj2-lQ9Ua7Oss1s14mCUVRmuyx6Xa60sYLo3Nc_SuylNZKf77RQvUbrPARK4kUaD5bcKtmvK1ePR9FuszFfoVRwVmXjHQqsn3OS");'>
-                                    </div>
-                                    <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-6">
-                                        <p
-                                            class="text-gray-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">
-                                            Project Title 1</p>
-                                        <p class="text-gray-600 dark:text-[#92adc9] text-base font-normal leading-normal">A
-                                            paragraph explaining the purpose, features, and challenges of the project. This
-                                            project aims to solve a real-world problem by leveraging modern web technologies
-                                            and a user-centric design approach.</p>
-                                        <div class="flex flex-wrap gap-2 mt-2">
-                                            <span
-                                                class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">React</span>
-                                            <span
-                                                class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Node.js</span>
-                                            <span
-                                                class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Express</span>
-                                            <span
-                                                class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">MongoDB</span>
-                                            <span
-                                                class="text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1">Tailwind
-                                                CSS</span>
-                                        </div>
-                                        <div class="flex items-center gap-4 mt-4">
-                                            <button
-                                                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-medium leading-normal gap-2">
-                                                <span class="truncate">View Project</span>
-                                                <span class="material-symbols-outlined text-base">arrow_forward</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>                           
+                            <!-- Projects will be loaded here dynamically -->                    
                         </div>
                     </main>
                     <footer
@@ -176,25 +139,45 @@
                         const infoContainerDiv = document.createElement('div');
                         infoContainerDiv.className = 'flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-sm bg-white dark:bg-[#192633] hover:shadow-lg transition-shadow duration-300';                        
                         infoContainerDiv.innerHTML = `
-                            <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
+                                    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
                                         data-alt="Abstract gradient from purple to blue"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBMOW-V4JKCxUTlwkwb6ifjzgp-gUEbVypXmVmrSaRTLJLY1ji1PJFg30936uGmBnQVomBaidx_i7z3FQmD_Fkj0kRmHhAeIJjNKzdkHA9SWNvbLKGC9pus-ojge-ov4nuRhRnTFuXJw-qsCDSwbn250IxeQA7uMXOOw_toQrD0vfj2-lQ9Ua7Oss1s14mCUVRmuyx6Xa60sYLo3Nc_SuylNZKf77RQvUbrPARK4kUaD5bcKtmvK1ePR9FuszFfoVRwVmXjHQqsn3OS");'>
+                                        style='background-image: url("${item.type-image}");'>
                                     </div>
                         `;
-                        wrapperDiv.appendChild(infoContainerDiv);
-
-                        // Create the main content div that contains title, company link, and description
-                        const contentDiv = document.createElement('div');
-                        contentDiv.className = 'flex-1';
-                        contentDiv.innerHTML = `
-                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">${item.title}</h3>
-                            <a class="inline-flex items-center gap-2 text-primary hover:underline" href="${item.link}" target="_blank">
-                                ${item.go_to}
-                                <span class="material-symbols-outlined text-sm">open_in_new</span>
-                            </a>
-                            <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">${item.description}</p>
+                        
+                        const rightPaneDiv = document.createElement('div');
+                        rightPaneDiv.className = 'flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-6';
+                        rightPaneDiv.innerHTML = `
+                                    <p class="text-gray-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">${item.title}</p>
+                                    <p class="text-gray-600 dark:text-[#92adc9] text-base font-normal leading-normal">${item.description}</p>
                         `;
-                        wrapperDiv.appendChild(contentDiv);
+
+                        const stackDiv = document.createElement('div');
+                        stackDiv.className = 'flex flex-wrap gap-2 mt-2';
+                        item.stack.forEach(tech => {
+                            const techSpan = document.createElement('span');
+                            techSpan.className = 'text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1';
+                            techSpan.textContent = tech;
+                            stackDiv.appendChild(techSpan);
+                        });
+                        rightPaneDiv.appendChild(stackDiv);
+
+                        const buttonContainerDiv = document.createElement('div');
+                        buttonContainerDiv.className = 'flex items-center gap-4 mt-4';
+                        buttonContainerDiv.innerHTML = `
+                                <a href="${item.link}" target="_blank">
+                                    <button
+                                        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-medium leading-normal gap-2">
+                                        <span class="truncate">View Project</span>
+                                        <span class="material-symbols-outlined text-base">arrow_forward</span>
+                                    </button>
+                                </a>
+                        `;
+                        rightPaneDiv.appendChild(buttonContainerDiv);
+                        
+                        infoContainerDiv.appendChild(rightPaneDiv);
+
+                        wrapperDiv.appendChild(infoContainerDiv);
 
                         container.appendChild(wrapperDiv);
                     });
