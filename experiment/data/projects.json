@@ -2,21 +2,21 @@
   {
     "title": "TODO List", 
     "description": "During 2025 I tried to work on other stacks trying to get the latest from Spring in a backend project",
-    "link": "github something",
+    "link": "https://github.com/saishaddai/TODO-List",
     "type": "Backend",
     "stack" : ["Java", "Spring", "SpringBoot", "H1"]
   }, 
   {
     "title": "Flashcards", 
     "description": "Mostly based on the Study, I created this project to study basics of programming during the day. It shows 20 cards randomly selected. I want to add an UI fully in Jetpack compose",
-    "link": "github something",
+    "link": "https://github.com/saishaddai/Flashcards",
     "type": "Android",
-    "stack" : ["Kotlin", "XML UI", "Fragments", "Offline"]
+    "stack" : ["Android", "Kotlin", "XML UI", "Fragments", "Offline"]
   }, 
   {
     "title": "Study", 
     "description": "This is very basic script to retrieve randomly a line of a file where programming questions are stored. Specifically, each time is called, it will throw you a different question each time. I think I should put more attention oto this projects and make it grow a little",
-    "link": "github something",
+    "link": "https://github.com/saishaddai/Study",
     "type": "Bash",
     "stack" : ["Bash"]
   }
