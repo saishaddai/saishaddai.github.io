@@ -4,6 +4,7 @@
     "company": "Encora Inc",
     "url": "https://www.encora.com",
     "timeline": "May 2025 - Oct 2025",
+    "industry": "Accelerators, Data and GenAI",
     "description": "Working at internal projects for Data and GenAI as accelerators and improving processes for Talent Acquisition (Android and Java/Kotlin Backend)."
   }, 
   {
@@ -11,6 +12,7 @@
     "company": "Encora Inc",
     "url": "https://www.encora.com",
     "timeline": "Mar 2022 - Apr 2025",
+    "industry": "Government, Education, Healthcare, Transportation, Travel",
     "description": "Industries: Government, Education, Healthcare, Transportation, Travel. Coaching 56 engineers from USA, Mexico, Argentina, Costa Rica, Colombia, and India. Management of 17 accounts in Logistics, Travel, Healthcare, Last Mile Delivery, Education, Energy, among others."
   },
   {
@@ -18,6 +20,7 @@
     "company": "Crew App",
     "url": "https://www.crewapp.com",
     "timeline": "Nov 2018 - Mar 2022",
+    "industry": "Communication, Hospitality",
     "description": "Industry: Communication. Created and implemented strategies to update legacy code from Java to Kotlin. Worked on new features for companies such as Mondelez and Grupo Bimbo"
   },
   {
@@ -25,6 +28,7 @@
     "company": "Harvestmark (now iFoods DS)",
     "url": "https://www.ifoodds.com/software-solutions/food-traceability-software/",
     "timeline": "Feb 2015 - Nov 2018",
+    "industry": "Food and Transportation",
     "description": "Industry: Food and Transportation. Created and implemented a strategy to update all the legacy code from Eclipse version to Android Studio, Java to Kotlin and AsyncTasks to RxJava. Also created a version for China Territory"
   },
   {
@@ -32,6 +36,7 @@
     "company": "Switchfly Inc",
     "url": "https://www.switchfly.com",
     "timeline": "Jan 2014 - Feb 2015",
+    "industry": "Travel and Hospitality",
     "description": "Industry: Travel and Hospitality. Integrated services from different vendors for hotels, activities and cruisers for Disney and Tam Viagens."
   },
   {
@@ -39,6 +44,7 @@
     "company": "Ondore Inc",
     "url": "https://www.linkedin.com/company/ondore",
     "timeline": "Jan 2013 - Dec 2013",
+    "industry": "Social Media and Data Science",
     "description": "Worked with different teams as scrum master and project manager to deliver software solutions in two projects: Ondore Scout to monitor social media and internal product to train and monitor data algorithms"
   },
   {
@@ -46,6 +52,7 @@
     "company": "Movistar (as contractor for Ondore Inc)",
     "url": "https://hispam.wayra.com/",
     "timeline": "Jun 2012 - Dec 2012",
+    "industry": "Healthcare",
     "description": "Industry: Healthcare. Implemented a Web application to store med data and history providing a platform for doctors and patients to access their information. Technologies: Java, JSP, Servlets, JDBC, HTML, CSS, JavaScript, MySQL."
   },
   {
@@ -53,6 +60,7 @@
     "company": "Ondore Inc",
     "url": "https://www.linkedin.com/company/ondore",
     "timeline": "Jan 2008 - Jun 2012",
+    "industry": "Government, Education, Music",
     "description": "Industries: Government, Education, Music. Designed and developed backend applications to easy integrate in search engines for the government of Mexico, Universidad de Colima, Ideas Radio Telcel. Implemented data strategies to index and consolidate sources for data search engines. Implemented the web crawlers agents to retrieve the information from diffferent media"
   },
   {
@@ -60,6 +68,7 @@
     "company": "Universidad Nacional Autónoma de México",
     "url": "https://www.unam.mx",
     "timeline": "Jan 2007 - Dec 2007",
+    "industry": "Education",
     "description": "Industry Education: Assisted in the development and testing of web applications, gaining practical experience in software development. Worked in ALUNAM Project to provide online educational services to students."
   }
 
