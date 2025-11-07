@@ -41,6 +41,7 @@
     <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
         <div class="layout-container flex h-full grow flex-col">
             <div class="flex flex-1 justify-center">
+            <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
                 <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
                     <header
                         class="flex items-center justify-between whitespace-nowrap border-b border-solid dark:border-b-[#233648] border-b-gray-200 px-10 py-3">
@@ -187,7 +188,8 @@
               .catch(error => {
                   console.error('There was a problem loading the JSON file:', error);
                   // You can add a user-friendly error message here, e.g., display in the container
-                  document.getElementById('itemsContainer').innerHTML = '<p>Error loading data. Please check the file.</p>';
+                  const projectsContainer = document.getElementById('projects-container');
+                  if (projectsContainer) projectsContainer.innerHTML = '<p class="text-red-500">Error loading data. Please check the file.</p>';
               });
       </script>
 
