@@ -66,6 +66,8 @@
                         </div>
                         <div class="hidden sm:flex flex-1 justify-end gap-8">
                             <div class="flex items-center gap-9">
+                                <a class="text-primary dark:text-primary text-sm font-medium leading-normal pointer-events-none text-gray-400"
++                                    href="#" aria-disabled="true" tabindex="-1" role="link">Experience</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
                                     href="links.html">Links</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
@@ -73,7 +75,7 @@
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
                                     href="publications.html">Publications</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="certifications.html">Certifications</a>
+                                    href="achievements.html">Achievements</a>
                             </div>
                         </div>
                     </header>
@@ -94,7 +96,7 @@
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
                                 href="publications.html">Publications</a>
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="certifications.html">Certifications</a>
+                                href="achievements.html">Achievements</a>
                         </div>
                         <div class="flex flex-wrap justify-center gap-4">
                             <a title="Medium" href="https://medium.com/@saishaddai" target="_blank">
@@ -150,6 +152,7 @@
                                 ${item.company}
                                 <span class="material-symbols-outlined text-sm">open_in_new</span>
                             </a>
+                            <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">Industries: ${item.industry}</p>
                             <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">${item.description}</p>
                         `;
                         wrapperDiv.appendChild(contentDiv);

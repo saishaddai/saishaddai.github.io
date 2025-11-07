@@ -21,8 +21,8 @@
     "description": "There's not too much to show here. Android provides a lot of courses, career paths, challenges and resources to learn from. This site only holds the badges you earn for each completed course. Feel free to check any other resources that might help you. This is not just for Developers anyway."
   }, 
   {
-    "name": "Excersim",
-    "go_to": "Go to my Excersism Profile",
+    "name": "Exercism",
+    "go_to": "Go to my Exercism Profile",
     "type": "toys_and_games",
     "url": "https://exercism.org/profiles/saishaddai",
     "description": "This is a  site about code challenges in different programming languages. I use it to practice and learn new languages and paradigms. Although I'm not very active here, I have completed several exercises in languages like SQL, Java, Kotlin, PHP, and Typescript. Feel free to check my profile and the exercises I have completed."

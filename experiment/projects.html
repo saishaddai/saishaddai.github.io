@@ -41,6 +41,7 @@
     <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
         <div class="layout-container flex h-full grow flex-col">
             <div class="flex flex-1 justify-center">
+            <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
                 <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
                     <header
                         class="flex items-center justify-between whitespace-nowrap border-b border-solid dark:border-b-[#233648] border-b-gray-200 px-10 py-3">
@@ -59,13 +60,15 @@
                         <div class="flex flex-1 justify-end gap-8">
                             <div class="flex items-center gap-9">
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="/experiment/">Home</a>
+                                    href="/experiment/">Experience</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
                                     href="links.html">Links</a>
+                                <a class="text-primary dark:text-primary text-sm font-medium leading-normal pointer-events-none text-gray-400"
++                                    href="#" aria-disabled="true" tabindex="-1" role="link">Projects</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
                                     href="publications.html">Publications</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="certifications.html">Certifications</a>
+                                    href="certifications.html">Achievements</a>
                             </div>
                             <!-- <button
                                 class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
@@ -95,7 +98,7 @@
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
                                 href="publications.html">Publications</a>
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="certifications.html">Certifications</a>
+                                href="certifications.html">Achievements</a>
                         </div>
                         <div class="flex flex-wrap justify-center gap-4">
                             <a title="Medium" href="https://medium.com/@saishaddai" target="_blank">
@@ -185,7 +188,8 @@
               .catch(error => {
                   console.error('There was a problem loading the JSON file:', error);
                   // You can add a user-friendly error message here, e.g., display in the container
-                  document.getElementById('itemsContainer').innerHTML = '<p>Error loading data. Please check the file.</p>';
+                  const projectsContainer = document.getElementById('projects-container');
+                  if (projectsContainer) projectsContainer.innerHTML = '<p class="text-red-500">Error loading data. Please check the file.</p>';
               });
       </script>
 
