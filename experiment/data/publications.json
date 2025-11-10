@@ -82,5 +82,12 @@
     "date": "Oct 14, 2019",
     "media": "At Medium",
     "description": "This is one of the most common queries you actually run for different features in your project but it actually differs from one database…"
+  },
+  {
+    "title": "How does it work the predictive text in smart phones?",
+    "url": "https://medium.com/@saishaddai/how-does-it-work-the-predictive-text-in-smart-phones-8fb631e4e3a6",
+    "date": "Sep 23, 2019",
+    "media": "At Medium",
+    "description": "There are small things in our daily basis that might be unnoticed until someone else ask “how does it work?” Well, in this post let me share with you a very used algorithm in smart phones to predict your words while you’re texting."
   }
 ]
