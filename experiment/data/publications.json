@@ -82,5 +82,201 @@
     "date": "Oct 14, 2019",
     "media": "At Medium",
     "description": "This is one of the most common queries you actually run for different features in your project but it actually differs from one database…"
+  },
+  {
+    "title": "What is the proper way to show a success screen for a couple of seconds in Android?",
+    "url": "https://medium.com/@saishaddai/what-is-the-proper-way-to-show-a-success-screen-for-a-couple-of-seconds-in-android-90bbb5de084d",
+    "date": "Sep 16, 2019",
+    "media": "At Medium",
+    "description": "In this post, I'm gonna bring to the table some different approaches to show an image for just a couple of seconds and my very personal opinion to make this properly."
+  },
+  {
+    "title": "SortedList: Inconsistency Detected",
+    "url": "https://medium.com/@saishaddai/sortedlist-java-lang-indexoutofboundsexception-edccd5e7c4f7",
+    "date": "Aug 16, 2019",
+    "media": "At Medium",
+    "description": "I found that iterating through a SortedList has a trick since there are no iterators for this implementation."
+  },
+  {
+    "title": "How to name your string resources in strings.xml in Android?",
+    "url": "https://medium.com/@saishaddai/how-to-name-your-string-resources-in-strings-xml-in-android-f1f69881c70e",
+    "date": "Aug 05, 2019",
+    "media": "At Medium",
+    "description": "The strings.xml is an important part of any Android application to separate all the messages and allow multiple languages to be displayed in screen. I'll let you know some ideas to define a convention to name resources in your app."
+  },
+  {
+    "title": "Backpressure in SQL",
+    "url": "https://medium.com/@saishaddai/backpressure-in-sql-969b822d4132",
+    "date": "Jul 22, 2019",
+    "media": "At Medium",
+    "description": "Backpressure: A concept I never heard before but I've seen its consequences all the time. This is a quick post about this programming issue in SQL and some techniques to how to avoid it."
+  },
+  {
+    "title": "Hide/Unhide Loading elements with animations",
+    "url": "https://medium.com/@saishaddai/hide-unhide-loading-elements-with-animations-a0efdd2ae2a2",
+    "date": "Jul 15, 2019",
+    "media": "At Medium",
+    "description": "Given the new tendencies in programming such as reactive or live data and how it changed the newest UI design, I want to bring up this two techniques I learned from the Web Designers a while ago that actually looks and works the same way as current best practices in Android."
+  },
+  {
+    "title": "Tips to use Data Binding in Android",
+    "url": "https://medium.com/@saishaddai/tips-to-use-data-binding-in-android-1fe3b686a992",
+    "date": "Jul 01, 2019",
+    "media": "At Medium",
+    "description": "The following tips assumes that you already read the Data Binding tutorial but you still have some issues to run it."
+  },
+  {
+    "title": "Places.GEO_DATA_API and getAutocompletePredictions are missing in the latest Places update",
+    "url": "https://medium.com/@saishaddai/places-geo-data-api-and-getautocompletepredictions-are-missing-in-the-latest-places-update-e208ca73afe3",
+    "date": "Jun 24, 2019",
+    "media": "At Medium",
+    "description": "Although this may be trivial, there are some things not mentioned in the Android Documentation that I want to check in this post that can help you out."
+  },
+  {
+    "title": "Pidgeon Hole sort algorithm",
+    "url": "https://medium.com/@saishaddai/pigeon-hole-sort-algorithm-b8bcb0d63bc7",
+    "date": "Jun 18, 2019",
+    "media": "At Medium",
+    "description": "There are a lot of sorting algorithms out there. But only a few are not based on comparing elements. The Pigeon Hole is one of those and in this post, I’ll try to explain it."
+  },
+  {
+    "title": "Schedulers.io() versus Schedulers.newThread()",
+    "url": "https://medium.com/@saishaddai/schedulers-io-versus-schedulers-newthread-5371198f6c43",
+    "date": "Jun 11, 2019",
+    "media": "At Medium",
+    "description": "If you are a newbie in RxJava or RxAndroid as me, maybe you saw some examples that uses Schedulers.io() or Schedulers.newThread() in the Observables configuration. The differences are noticeable in terms of resources usage and performance in general."
+  },
+  {
+    "title": "How to update multiple MenuItems when one of those options is selected",
+    "url": "https://medium.com/@saishaddai/how-to-update-multiple-menuitems-when-one-of-those-options-is-selected-208e63b0dfc",
+    "date": "Jun 03, 2019",
+    "media": "At Medium",
+    "description": "I've been using Menus in Android as a way to filter lists in the screen. Although there is not a best practice or a UX rule to show if an option is currently selected, I found an easy way to achieve it."
+  },
+  {
+    "title": "Sending messages generated in your app through WhatsApp",
+    "url": "https://medium.com/@saishaddai/sending-messages-generated-in-your-app-through-whatsapp-2d5c0b0ed4fc",
+    "date": "May 27, 2019",
+    "media": "At Medium",
+    "description": "Interaction between apps is a common thing this days. Last week I've been thinking on ideas of how to help others at the office (I'll write soon a better approach of this idea) but then I started to think in ways to send a message using WhatsApp or any other instant messages apps."
+  },
+  {
+    "title": "Fake JSON API Server with JSONPlaceHolder",
+    "url": "https://medium.com/@saishaddai/fake-json-api-server-with-jsonplaceholder-1d4edb2ab7a4",
+    "date": "Abr 29, 2019",
+    "media": "At Medium",
+    "description": "JSONPlaceHolder is a great solution to integrate an instant JSON server with your Github repositories. Let me tell you my experience."
+  },
+  {
+    "title": "Gradient animations in Android",
+    "url": "https://medium.com/@saishaddai/gradient-animations-in-android-380394729176",
+    "date": "Apr 22, 2019",
+    "media": "At Medium",
+    "description": "I while ago I found an old (2017 is old in this industry) tutorial to have animated gradients I wanted to try on in Kotlin. So here it is: A button I want to tune up with two colors, gradient blue and gradient red."
+  },
+  {
+    "title": "React Native: undefined is not a function(evaluating '(0, _reactNavigation.StackNavigator)')",
+    "url": "https://medium.com/@saishaddai/react-native-undefined-is-not-a-function-evaluating-0-reactnavigation-stacknavigator-1d9979eba2e8",
+    "date": "Apr 15, 2019",
+    "media": "At Medium",
+    "description": "React Native changes so often and some parts that we take for granted suddenly changes. So if you have an old version of react-navigation (package of React Native to implement the routes in your app) and upgrade it to version 3, you'll see that your app now fails from the mere beginning."
+  },
+  {
+    "title": "Static TAG variable in Log.d from Java to Kotlin",
+    "url": "https://medium.com/@saishaddai/static-tag-variable-in-log-d-from-java-to-kotlin-e09dea89701b",
+    "date": "Apr 08, 2019",
+    "media": "At Medium",
+    "description": "The famous Log.d(TAG, “my log message”) in Android changed a little bit from what we use to remember in Java. Kotlin offers a new feature — companion objects — to make clear this kind of values are static"
+  },
+  {
+    "title": "Deep Links in Android",
+    "url": "https://medium.com/@saishaddai/deep-links-in-android-ff4d5b9110d0",
+    "date": "Mar 25, 2019",
+    "media": "At Medium",
+    "description": "Deep Links is a way to let the Google engines (and pretty much any web crawler in the world) to analyze your contents in your app without actually install it. And no, this is not Google Play Instant."
+  },
+  {
+    "title": "Little tip about Exceptions' interoperability between Kotlin & Java",
+    "url": "https://medium.com/@saishaddai/little-tip-about-exceptions-interoperability-between-kotlin-java-e1e7b13f5431",
+    "date": "Mar 18, 2019",
+    "media": "At Medium",
+    "description": "I'm recently trying to combine Kotlin with Java code in an Android app. While trying to find differences ought to be mentioned, I found this about Exceptions."
+  },
+  {
+    "title": "An idea of how to use the Pair class in Kotlin",
+    "url": "https://medium.com/@saishaddai/an-idea-of-how-to-use-the-pair-class-in-kotlin-575e827e0808",
+    "date": "Mar 11, 2019",
+    "media": "At Medium",
+    "description": "Kotlin is full of new ideas to improve readability and write less code. Even so, the creators of this language left everything else to the creativity of the developers..."
+  },
+  {
+    "title": "How to bounce a View in Android?",
+    "url": "https://medium.com/@saishaddai/how-to-bounce-a-view-in-android-cee4aad83bce",
+    "date": "Mar 04, 2019",
+    "media": "At Medium",
+    "description": "While using different mobile or Web apps you may have seen that when a validation fails, an element bounces to call your attention. In Android, is kinda easy to create bounce animations using the regular android tools and nothing more."
+  },
+  {
+    "title": "TIL: requestFocus() not working",
+    "url": "https://medium.com/@saishaddai/til-requestfocus-not-working-22760b417cf9",
+    "date": "Dec 10, 2018",
+    "media": "At Medium",
+    "description": "ListView usually paints element by element (in this case each EditText) from the first to the last element in your list using the method called getView(). Today I learned that after an EditText item is painted in the screen, it actually requests the focus on this element."
+  },
+  {
+    "title": "TIL: CSS to draw a frame from a picture",
+    "url": "https://medium.com/@saishaddai/til-css-to-draw-a-frame-from-a-picture-2b0cfcf67c9a",
+    "date": "Dec 03, 2018",
+    "media": "At Medium",
+    "description": "I must accept that I'm awful at web design. Even so, I'm helping a good friend of mine to build her web site. Hearing her feedback, she told me that some pictures she wanted to show looked “non-attractive” and asked me to put something to call the attention to it."
+  },
+  {
+    "title": "TIL: Api Mock Responses in Mobile development",
+    "url": "https://medium.com/@saishaddai/til-api-mock-responses-in-mobile-development-29443d35c778",
+    "date": "Nov 26, 2018",
+    "media": "At Medium",
+    "description": "I tried a couple of options to mock responses from server. I know there are a lot more that this list but it might be a good kick start for you to keep on searching for the best tool for you. Some of my suggestions might not be too clever but there are useful for me."
+  },
+  {
+    "title": "TIL: Parse.com alternatives",
+    "url": "https://medium.com/@saishaddai/til-parse-com-alternatives-39c427f59f43",
+    "date": "Nov 19, 2018",
+    "media": "At Medium",
+    "description": "...without Parse, I tried a couple of alternatives following the same recipe to see which one could be easier to use - and furthermore — easy to integrate to mobile apps."
+  },
+  {
+    "title": "TIL: Difference between Int() and Int! in Swift",
+    "url": "https://medium.com/@saishaddai/til-difference-between-int-and-int-in-swift-5a378cee844c",
+    "date": "Nov 12, 2018",
+    "media": "At Medium",
+    "description": "This are my firsts steps in Swift so this is something I wanted to write about, since Kotlin has something incredible similar. While declaring variables I found there are 2 different ways to create instances with a declared type. I'm using Int as an example but this may extend to any class in Swift."
+  },
+  {
+    "title": "TIL: Camera controls with volume buttons",
+    "url": "https://medium.com/@saishaddai/til-camera-controls-with-volume-buttons-2bb4ef18972d",
+    "date": "Nov 05, 2018",
+    "media": "At Medium",
+    "description": "If someday you have to control the zoom of the camera with the volume up and volume down buttons of your Android device (the physical buttons at the left of most of Android devices)."
+  },
+  {
+    "title": "TIL: How to create a signed APK using Eclipse in 2018",
+    "url": "https://medium.com/@saishaddai/til-how-to-create-a-signed-apk-using-eclipse-in-2018-d7fa325ec6a",
+    "date": "Oct 30, 2018",
+    "media": "At Medium",
+    "description": "I know nobody uses Eclipse this year anymore but you'll find some really old code that ought to be run in Eclipse. If you can't really avoid this, let me help you with this post."
+  },
+  {
+    "title": "TIL: System(0) in Android",
+    "url": "https://medium.com/@saishaddai/til-system-0-in-android-2555e7ba51d1",
+    "date": "Oct 30, 2018",
+    "media": "At Medium",
+    "description": "As you may know there is not restriction in Android to use System.exit(0). Android pages encourages you to use getActivity().finish() to say hey app, clean all your mess, say good bye to everyone and die while you sleep."
+  },
+  {
+    "title": "TIL: How to remove the title of a Screen",
+    "url": "https://medium.com/@saishaddai/how-to-remove-the-title-of-a-screen-731e331a002d",
+    "date": "Oct 08, 2018",
+    "media": "At Medium",
+    "description": "By default if you define a title in your app it will replicate in all your screens. Sometimes you want to remove the title because you don't really need it in that moment."
   }
 ]
