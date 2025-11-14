@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Personal Projects</title>
+    <title>Saidel López</title>
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22sans-serif%22 font-weight=%22bold%22 fill=%22%23cccccc%22>SL</text></svg>">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -41,113 +41,119 @@
     <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
         <div class="layout-container flex h-full grow flex-col">
             <div class="flex flex-1 justify-center">
-            <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
-                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-                    <header
-                        class="flex items-center justify-between whitespace-nowrap border-b border-solid dark:border-b-[#233648] border-b-gray-200 px-10 py-3">
-                        <div class="flex items-center gap-4 text-gray-800 dark:text-white">
-                            <div class="size-6 text-primary">
-                                <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                                    <path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
-                                        fill="currentColor" fill-rule="evenodd"></path>
-                                </svg>
+                <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+                    <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                        <header
+                            class="flex items-center justify-between whitespace-nowrap border-b border-solid dark:border-b-[#233648] border-b-gray-200 px-10 py-3">
+                            <div class="flex items-center gap-4 text-gray-800 dark:text-white">
+                                <div class="size-6 text-primary">
+                                    <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                        <path clip-rule="evenodd"
+                                            d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
+                                            fill="currentColor" fill-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <h2
+                                    class="text-gray-800 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">
+                                    <a href="/experiment/">Saidel López</a>
+                                </h2>
                             </div>
-                            <h2
-                                class="text-gray-800 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">
-                                <a href="/experiment/">Saidel López</a>
-                            </h2>
-                        </div>
-                        <div class="flex flex-1 justify-end gap-8">
-                            <div class="flex items-center gap-9">
-                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="/experiment/">Experience</a>
-                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="links.html">Links</a>
-                                <a class="text-primary dark:text-primary text-sm font-medium leading-normal pointer-events-none text-gray-400"
-+                                    href="#" aria-disabled="true" tabindex="-1" role="link">Projects</a>
-                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="publications.html">Publications</a>
-                                <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="certifications.html">Achievements</a>
-                            </div>
-                            <!-- <button
+                            <div class="flex flex-1 justify-end gap-8">
+                                <div class="flex items-center gap-9">
+                                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                        href="/experiment/">Experience</a>
+                                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                        href="links.html">Links</a>
+                                    <a class="text-primary dark:text-primary text-sm font-medium leading-normal pointer-events-none text-gray-400"
+                                        + href="#" aria-disabled="true" tabindex="-1" role="link">Projects</a>
+                                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                        href="publications.html">Publications</a>
+                                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
+                                        href="certifications.html">Achievements</a>
+                                </div>
+                                <!-- <button
                                 class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
                                 <span class="truncate">Resume</span>
                             </button>  -->
-                        </div>
-                    </header>
-                    <main class="p-4 md:p-10">
-                        <div class="flex flex-wrap justify-between gap-3 p-4">
-                            <div class="flex min-w-72 flex-col gap-3">
-                                <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-8">Personal
-                                    Projects</h1>
                             </div>
-                        </div>
-                        <div id="projects-container">
-                            <!-- Projects will be loaded here dynamically -->                    
-                        </div>
-                    </main>
-                    <footer
-                        class="flex flex-col gap-6 px-5 py-10 text-center @container border-t dark:border-t-[#233648] border-t-gray-200 mt-10">
-                        <div
-                            class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
-                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="/experiment/">Home</a>
-                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="links.html">Links</a>
-                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="publications.html">Publications</a>
-                            <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="certifications.html">Achievements</a>
-                        </div>
-                        <div class="flex flex-wrap justify-center gap-4">
-                            <a title="Medium" href="https://medium.com/@saishaddai" target="_blank">
-                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">article</span>
-                            </a>
-                            <a title="LinkedIn" href="https://www.linkedin.com/in/saidel-lopez/" target="_blank">
-                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">link</span>
-                            </a>
-                            <a title="GitHub" href="https://github.com/saishaddai" target="_blank">
-                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span>
-                            </a>
-                        </div>
-                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2025 Saidel
-                            López</p>
-                    </footer>
+                        </header>
+                        <main class="p-4 md:p-10">
+                            <div class="flex flex-wrap justify-between gap-3 p-4">
+                                <div class="flex min-w-72 flex-col gap-3">
+                                    <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-8">
+                                        Personal
+                                        Projects</h1>
+                                </div>
+                            </div>
+                            <div id="projects-container">
+                                <!-- Projects will be loaded here dynamically -->
+                            </div>
+                        </main>
+                        <footer
+                            class="flex flex-col gap-6 px-5 py-10 text-center @container border-t dark:border-t-[#233648] border-t-gray-200 mt-10">
+                            <div
+                                class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                                <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                    href="/experiment/">Home</a>
+                                <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                    href="links.html">Links</a>
+                                <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                    href="publications.html">Publications</a>
+                                <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
+                                    href="certifications.html">Achievements</a>
+                            </div>
+                            <div class="flex flex-wrap justify-center gap-4">
+                                <a title="Medium" href="https://medium.com/@saishaddai" target="_blank">
+                                    <span
+                                        class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">article</span>
+                                </a>
+                                <a title="LinkedIn" href="https://www.linkedin.com/in/saidel-lopez/" target="_blank">
+                                    <span
+                                        class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">link</span>
+                                </a>
+                                <a title="GitHub" href="https://github.com/saishaddai" target="_blank">
+                                    <span
+                                        class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span>
+                                </a>
+                            </div>
+                            <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2025
+                                Saidel
+                                López</p>
+                        </footer>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <script>
-          fetch('./data/projects.json')
-              .then(response => {
-                  if (!response.ok) {
-                      throw new Error('Network response was not ok');
-                  }
-                  return response.json();  // Parse the JSON from the response
-              })
-              .then(items => {
-                  // Get the container element
-                  const container = document.getElementById('projects-container');
+        <script>
+            fetch('./data/projects.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();  // Parse the JSON from the response
+                })
+                .then(items => {
+                    // Get the container element
+                    const container = document.getElementById('projects-container');
 
-                  // Iterate through the array and create HTML elements for each item
-                  items.forEach((item, index) => {
+                    // Iterate through the array and create HTML elements for each item
+                    items.forEach((item, index) => {
                         // Create a wrapper div for each item
                         const wrapperDiv = document.createElement('div');
                         wrapperDiv.className = 'p-4 @container';
 
                         // inside wrapperDiv, create a new div for the info container with class flex-shrink-0
                         const infoContainerDiv = document.createElement('div');
-                        infoContainerDiv.className = 'flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-sm bg-white dark:bg-[#192633] hover:shadow-lg transition-shadow duration-300';                        
+                        infoContainerDiv.className = 'flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-sm bg-white dark:bg-[#192633] hover:shadow-lg transition-shadow duration-300';
                         infoContainerDiv.innerHTML = `
                                     <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none"
                                         data-alt="Abstract gradient from purple to blue"
                                         style='background-image: url("${item['type-image']}");'>
                                     </div>
                         `;
-                        
+
                         const rightPaneDiv = document.createElement('div');
                         rightPaneDiv.className = 'flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-6';
                         rightPaneDiv.innerHTML = `
@@ -177,21 +183,21 @@
                                 </a>
                         `;
                         rightPaneDiv.appendChild(buttonContainerDiv);
-                        
+
                         infoContainerDiv.appendChild(rightPaneDiv);
 
                         wrapperDiv.appendChild(infoContainerDiv);
 
                         container.appendChild(wrapperDiv);
                     });
-              })
-              .catch(error => {
-                  console.error('There was a problem loading the JSON file:', error);
-                  // You can add a user-friendly error message here, e.g., display in the container
-                  const projectsContainer = document.getElementById('projects-container');
-                  if (projectsContainer) projectsContainer.innerHTML = '<p class="text-red-500">Error loading data. Please check the file.</p>';
-              });
-      </script>
+                })
+                .catch(error => {
+                    console.error('There was a problem loading the JSON file:', error);
+                    // You can add a user-friendly error message here, e.g., display in the container
+                    const projectsContainer = document.getElementById('projects-container');
+                    if (projectsContainer) projectsContainer.innerHTML = '<p class="text-red-500">Error loading data. Please check the file.</p>';
+                });
+        </script>
 
 </body>
 

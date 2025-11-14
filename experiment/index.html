@@ -5,8 +5,9 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>MyE Experience</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22sans-serif%22 font-weight=%22bold%22 fill=%22%23cccccc%22>SL</text></svg>">
+    <title>Saidel López</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22sans-serif%22 font-weight=%22bold%22 fill=%22%23cccccc%22>SL</text></svg>">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -67,7 +68,7 @@
                         <div class="hidden sm:flex flex-1 justify-end gap-8">
                             <div class="flex items-center gap-9">
                                 <a class="text-primary dark:text-primary text-sm font-medium leading-normal pointer-events-none text-gray-400"
-+                                    href="#" aria-disabled="true" tabindex="-1" role="link">Experience</a>
+                                    + href="#" aria-disabled="true" tabindex="-1" role="link">Experience</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
                                     href="links.html">Links</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
@@ -82,7 +83,7 @@
                     <main class="mt-8 px-4 sm:px-6">
                         <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-8">Experience</h1>
                         <div class="space-y-12" id="space-y-12">
-                           
+
                         </div>
                     </main>
                     <footer
@@ -100,17 +101,17 @@
                         </div>
                         <div class="flex flex-wrap justify-center gap-4">
                             <a title="Medium" href="https://medium.com/@saishaddai" target="_blank">
-                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">article</span> 
+                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">article</span>
                             </a>
                             <a title="LinkedIn" href="https://www.linkedin.com/in/saidel-lopez/" target="_blank">
-                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">link</span> 
+                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">link</span>
                             </a>
                             <a title="GitHub" href="https://github.com/saishaddai" target="_blank">
-                                <span
-                                    class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span> 
+                                <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span>
                             </a>
                         </div>
-                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2025 Saidel López</p>
+                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2025 Saidel
+                            López</p>
                     </footer>
                 </div>
             </div>
@@ -118,35 +119,35 @@
     </div>
 
     <script>
-          fetch('./data/experience.json')
-              .then(response => {
-                  if (!response.ok) {
-                      throw new Error('Network response was not ok');
-                  }
-                  return response.json();  // Parse the JSON from the response
-              })
-              .then(items => {
-                  // Get the container element
-                  const container = document.getElementById('space-y-12');
+        fetch('./data/experience.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();  // Parse the JSON from the response
+            })
+            .then(items => {
+                // Get the container element
+                const container = document.getElementById('space-y-12');
 
-                  // Iterate through the array and create HTML elements for each item
-                  items.forEach((item, index) => {
-                        // Create a wrapper div for each item
-                        const wrapperDiv = document.createElement('div');
-                        wrapperDiv.className = 'flex flex-col sm:flex-row gap-4 p-6 rounded-lg hover:bg-white dark:hover:bg-gray-800/20 transition-all duration-300';
+                // Iterate through the array and create HTML elements for each item
+                items.forEach((item, index) => {
+                    // Create a wrapper div for each item
+                    const wrapperDiv = document.createElement('div');
+                    wrapperDiv.className = 'flex flex-col sm:flex-row gap-4 p-6 rounded-lg hover:bg-white dark:hover:bg-gray-800/20 transition-all duration-300';
 
-                        // inside wrapperDiv, create a new div for the timeline with class flex-shrink-0
-                        const timelineDiv = document.createElement('div');
-                        timelineDiv.className = 'flex-shrink-0';
-                        timelineDiv.innerHTML = `
+                    // inside wrapperDiv, create a new div for the timeline with class flex-shrink-0
+                    const timelineDiv = document.createElement('div');
+                    timelineDiv.className = 'flex-shrink-0';
+                    timelineDiv.innerHTML = `
                             <p class="text-sm text-gray-500 dark:text-gray-400">${item.timeline}</p>
                         `;
-                        wrapperDiv.appendChild(timelineDiv);
-                        
-                        // Create the main content div that contains title, company link, and description
-                        const contentDiv = document.createElement('div');
-                        contentDiv.className = 'flex-1';
-                        contentDiv.innerHTML = `
+                    wrapperDiv.appendChild(timelineDiv);
+
+                    // Create the main content div that contains title, company link, and description
+                    const contentDiv = document.createElement('div');
+                    contentDiv.className = 'flex-1';
+                    contentDiv.innerHTML = `
                             <h3 class="text-lg font-semibold text-gray-800 dark:text-white">${item.title}</h3>
                             <a class="inline-flex items-center gap-2 text-primary hover:underline" href="${item.url}" target="_blank">
                                 ${item.company}
@@ -155,17 +156,17 @@
                             <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">Industries: ${item.industry}</p>
                             <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">${item.description}</p>
                         `;
-                        wrapperDiv.appendChild(contentDiv);
+                    wrapperDiv.appendChild(contentDiv);
 
-                        container.appendChild(wrapperDiv);
-                    });
-              })
-              .catch(error => {
-                  console.error('There was a problem loading the JSON file:', error);
-                  // You can add a user-friendly error message here, e.g., display in the container
-                  document.getElementById('itemsContainer').innerHTML = '<p>Error loading data. Please check the file.</p>';
-              });
-      </script>
+                    container.appendChild(wrapperDiv);
+                });
+            })
+            .catch(error => {
+                console.error('There was a problem loading the JSON file:', error);
+                // You can add a user-friendly error message here, e.g., display in the container
+                document.getElementById('itemsContainer').innerHTML = '<p>Error loading data. Please check the file.</p>';
+            });
+    </script>
 </body>
 
 </html>
