@@ -1,30 +1,58 @@
 [
   {
+    "title": "Personal Website", 
+    "status": "In Progress (Always)",
+    "description": "This is my personal website where I share my experience, projects and blog posts. It is built with completely with vanilla JS, Tailwind CSS and HTML and hosted on GitHub Pages.",
+    "link": "https://github.com/saishaddai/saishaddai.github.io",
+    "type-image": "https://saishaddai.github.io/images/html_generic.png",
+    "stack" : ["HTML", "JavaScript", "TailwindCSS", "GitHub Pages"]
+  }, 
+  {
+    "title": "Android Wear", 
+    "status": "Planning",
+    "description": "This is a smal project to learn about Android Wear OS development. It includes a simple app that displays the time and a button to show a toast message. I plan to add more features and improve the UI in the future.",
+    "link": "https://github.com/saishaddai/Android_Wear",
+    "type-image": "https://saishaddai.github.io/images/android_generic.png",
+    "stack" : ["Android", "Kotlin", "Wear OS", "Jetpack Compose", "Material 3 Expressive", "Coroutines"]
+  }, 
+  {
+    "title": "Taximeter", 
+    "status": "Planning",
+    "description": "This is a simple taximeter I started to work on while working with some fellow friends. It is built with Jetpack Compose and Material 3 Expressive. The app allows users to start, stop and reset the taximeter, as well as to set the rate per kilometer and the initial fare. The app also displays the total fare and the distance traveled.",
+    "link": "https://github.com/saishaddai/Taximeter",
+    "type-image": "https://saishaddai.github.io/images/android_generic.png",
+    "stack" : ["Android", "Kotlin", "Jetpack Compose", "Material 3 Expressive", "Coroutines"]
+  },
+  {
     "title": "TODO List", 
+    "status": "Finished",
     "description": "During 2025 I tried to work on other stacks trying to get the latest from Spring in a backend project",
-    "link": "https://github.com/saishaddai/TODO-List",
+    "link": "https://github.com/saishaddai/TodoList",
     "type-image": "https://saishaddai.github.io/images/backend_kotlin_generic.png",
     "stack" : ["Java", "Spring", "SpringBoot", "H1"]
   }, 
   {
     "title": "Flashcards", 
-    "description": "Mostly based on the Study, I created this project to study basics of programming during the day. It shows 20 cards randomly selected. I want to add an UI fully in Jetpack compose",
+    "status": "Finished",
+    "description": "Mostly based on the Bullying With Questions. I created this project to study basics of programming during the day. It shows 20 cards randomly selected. I want to add an UI fully in Jetpack compose",
     "link": "https://github.com/saishaddai/Flashcards",
     "type-image": "https://saishaddai.github.io/images/android_generic.png",
     "stack" : ["Android", "Kotlin", "XML UI", "Fragments", "Offline"]
+  },
+  {
+    "title": "Bullying with questions", 
+    "status": "Finished",
+    "description": "This is very basic script to retrieve randomly a line of a file where programming questions are stored. Specifically, each time is called, it will throw you a different question each time. I think I should put more attention oto this projects and make it grow a little. Take in consideration this projects was created before AI so it has a very limited source of knowledge.",
+    "link": "https://github.com/saishaddai/BullyingWithQuestions",
+    "type-image": "https://saishaddai.github.io/images/html_generic.png",
+    "stack" : ["Bash", "Offline", "text-based"]
   }, 
   {
-    "title": "Study", 
-    "description": "This is very basic script to retrieve randomly a line of a file where programming questions are stored. Specifically, each time is called, it will throw you a different question each time. I think I should put more attention oto this projects and make it grow a little",
-    "link": "https://github.com/saishaddai/Study",
-    "type-image": "https://saishaddai.github.io/images/html_generic.png",
-    "stack" : ["Bash"]
-  }, 
-  {
-    "title": "Personal Website", 
-    "description": "This is my personal website where I share my experience, projects and blog posts. It is built with completely with vanilla JS, Tailwind CSS and HTML and hosted on GitHub Pages.",
-    "link": "https://github.com/saishaddai/saishaddai.github.io",
-    "type-image": "https://saishaddai.github.io/images/html_generic.png",
-    "stack" : ["HTML", "JavaScript", "TailwindCSS", "GitHub Pages"]
+    "title": "Fight Info Retriever", 
+    "status": "Finished",
+    "description": "This was my first project in backend /frontend development as a personal project (2014). It is a simple app that retrieves flight information from an API and displays it in a user-friendly way. The app allows users to search for flights by origin and destination, and view details such as departure and arrival times, flight duration, and airline information. It uses the API of Despegar.com and uses the early versions of Ember.js",
+    "link": "https://github.com/saishaddai/FlightInfoRetriever",
+    "type-image": "https://saishaddai.github.io/images/backend_generic.png",
+    "stack" : ["Java 6", "API", "JSON", "SOAP XML", "Microservices", "Ember.js", "CSS", "HTML"]
   }
 ]
