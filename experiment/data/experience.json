@@ -21,7 +21,7 @@
     "url": "https://www.crewapp.com",
     "timeline": "Nov 2018 - Mar 2022",
     "industry": "Communication, Restaurants",
-    "description": "I designed and executed strategies to modernize legacy code by migrating from Java to Kotlin, while creating proof-of-concepts with Coroutines to enable new implementations. My work focused on continuous performance improvements, defining and documenting best practices and coding standards, and delivering demos of new features. Additionally, I established clear technical documentation in Confluence to support knowledge sharing and team alignment."
+    "description": "In my role, I spearheaded the modernization of legacy systems by developing and executing strategies to migrate code from Java to Kotlin, enhancing efficiency and maintainability. I also created proof-of-concept implementations using coroutines to demonstrate innovative features and significant performance gains, which informed key project decisions. Additionally, I built continuous integration support from the ground up, streamlining deployment processes and reducing errors. I contributed to defining and documenting best practices and coding standards, fostering a collaborative and high-quality development environment. My responsibilities extended to implementing and demonstrating new features, ensuring seamless integration and user adoption. Finally I helped as a translator between English and Spanish for the development team, facilitating clear communication and understanding across diverse team members and negotiations with Grupo Bimbo."
   },
   {
     "title": "Android Developer at Harvestmark",
@@ -29,7 +29,7 @@
     "url": "https://www.ifoodds.com/software-solutions/food-traceability-software/",
     "timeline": "Feb 2015 - Nov 2018",
     "industry": "Food and Transportation",
-    "description": "Industry: Food and Transportation. Created and implemented a strategy to update all the legacy code from Eclipse version to Android Studio, Java to Kotlin and AsyncTasks to RxJava. Also created a version for China Territory"
+    "description": "In my role, I developed and executed a comprehensive strategy to migrate all legacy code from Eclipse to Android Studio, ensuring a smooth transition and alignment with modern development standards. I implemented internationalization features to broaden the app's accessibility across global markets. Additionally, I created user documentation in both English and Spanish, while documenting internal processes in Confluence and detailing app functionalities through UML diagrams for enhanced clarity and collaboration. To optimize efficiency, I improved the performance of in-built scanners and refined all database queries, significantly reducing memory usage and response times. I also took charge of updating camera and in-built scanner support to incorporate the latest technological advancements. Furthermore, I presented monthly performance reports on the app's overall metrics, providing valuable insights for continuous improvement. Finally, I led the implementation of a new app version tailored for use in Chinese territory, adapting to regional requirements and expanding our international reach."
   },
   {
     "title": "Full-stack Developer at Switchfly Inc",
