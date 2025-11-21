@@ -29,7 +29,7 @@
     "url": "https://www.ifoodds.com/software-solutions/food-traceability-software/",
     "timeline": "Feb 2015 - Nov 2018",
     "industry": "Food and Transportation",
-    "description": "In my role, I developed and executed a comprehensive strategy to migrate all legacy code from Eclipse to Android Studio, ensuring a smooth transition and alignment with modern development standards. I implemented internationalization features to broaden the app's accessibility across global markets. Additionally, I created user documentation in both English and Spanish, while documenting internal processes in Confluence and detailing app functionalities through UML diagrams for enhanced clarity and collaboration. To optimize efficiency, I improved the performance of in-built scanners and refined all database queries, significantly reducing memory usage and response times. I also took charge of updating camera and in-built scanner support to incorporate the latest technological advancements. Furthermore, I presented monthly performance reports on the app's overall metrics, providing valuable insights for continuous improvement. Finally, I led the implementation of a new app version tailored for use in Chinese territory, adapting to regional requirements and expanding our international reach."
+    "description": "I led the modernization of the application by creating and implementing a strategy to migrate all legacy code from Eclipse to Android Studio, while also introducing internationalization to support broader global use. I developed bilingual user documentation in English and Spanish, documented processes in Confluence, and described app functionalities using UML for clarity and consistency. My contributions included improving the performance of in-built scanners and optimizing database queries to reduce memory usage and response times. I regularly presented monthly performance reports, updated camera functions, and ultimately delivered a new version of the app tailored for deployment in the Chinese market."
   },
   {
     "title": "Full-stack Developer at Switchfly Inc",
@@ -37,7 +37,7 @@
     "url": "https://www.switchfly.com",
     "timeline": "Jan 2014 - Feb 2015",
     "industry": "Travel and Hospitality",
-    "description": "Industry: Travel and Hospitality. Integrated services from different vendors for hotels, activities and cruisers for Disney and Tam Viagens."
+    "description": "I developed integrations for hotel, travel, and activity services within Disney's platform and Tam Viagens, ensuring seamless functionality across different domains. In addition, I enhanced the automation testing framework to improve reliability and efficiency, and participated in an internal hackathon where I contributed to reducing response times. To support onboarding and knowledge sharing, I also created monthly proof-of-concepts (PoCs) that were presented to new joiners, showcasing practical implementations and fostering innovation within the team."
   },
   {
     "title": "Lead Developer and Project Manager at Ondore",
