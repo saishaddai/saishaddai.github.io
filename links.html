@@ -63,14 +63,15 @@
                             </div>
                             <h2
                                 class="text-gray-800 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">
-                                Saidel López</h2>
+                                <a href=".">Saidel López</a>
+                            </h2>
                         </div>
                         <div class="hidden sm:flex flex-1 justify-end gap-8">
                             <div class="flex items-center gap-9">
-                                <a class="text-primary dark:text-primary text-sm font-medium leading-normal pointer-events-none text-gray-400"
-                                    + href="#" aria-disabled="true" tabindex="-1" role="link">Experience</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
-                                    href="links.html">Links</a>
+                                    href=".">Experience</a>
+                                <a class="text-primary dark:text-primary text-sm font-medium leading-normal pointer-events-none text-gray-400"
+                                    + href="#" aria-disabled="true" tabindex="-1" role="link">Links</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
                                     href="projects.html">Projects</a>
                                 <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal"
@@ -81,7 +82,7 @@
                         </div>
                     </header>
                     <main class="mt-8 px-4 sm:px-6">
-                        <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-8">Experience</h1>
+                        <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-8">Links</h1>
                         <div class="space-y-12" id="space-y-12">
 
                         </div>
@@ -91,7 +92,7 @@
                         <div
                             class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
-                                href="links.html">Links</a>
+                                href=".">Experience</a>
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
                                 href="projects.html">Projects</a>
                             <a class="text-gray-500 dark:text-[#92adc9] text-base font-normal leading-normal min-w-40"
@@ -110,7 +111,8 @@
                                 <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">code</span>
                             </a>
                         </div>
-                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2026 Saidel López</p>
+                        <p class="text-gray-500 dark:text-[#92adc9] text-sm font-normal leading-normal">© 2026 Saidel
+                            López</p>
                     </footer>
                 </div>
             </div>
@@ -118,7 +120,7 @@
     </div>
 
     <script>
-        fetch('../data/experience.json')
+        fetch('../data/links.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -139,7 +141,7 @@
                     const timelineDiv = document.createElement('div');
                     timelineDiv.className = 'flex-shrink-0';
                     timelineDiv.innerHTML = `
-                            <p class="text-sm text-gray-500 dark:text-gray-400">${item.timeline}</p>
+                            <span class="material-symbols-outlined text-gray-500 dark:text-[#92adc9]">${item.type}</span>
                         `;
                     wrapperDiv.appendChild(timelineDiv);
 
@@ -147,12 +149,11 @@
                     const contentDiv = document.createElement('div');
                     contentDiv.className = 'flex-1';
                     contentDiv.innerHTML = `
-                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">${item.title}</h3>
+                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">${item.name}</h3>
                             <a class="inline-flex items-center gap-2 text-primary hover:underline" href="${item.url}" target="_blank">
-                                ${item.company}
+                                ${item.go_to}
                                 <span class="material-symbols-outlined text-sm">open_in_new</span>
                             </a>
-                            <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">Industries: ${item.industry}</p>
                             <p class="mt-2 text-gray-600 dark:text-gray-300 text-base leading-relaxed">${item.description}</p>
                         `;
                     wrapperDiv.appendChild(contentDiv);
