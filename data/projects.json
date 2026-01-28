@@ -8,12 +8,12 @@
     "stack" : ["HTML", "JavaScript", "TailwindCSS", "GitHub Pages"]
   }, 
   {
-    "title": "Android Wear", 
-    "status": "Planning",
-    "description": "This is a smal project to learn about Android Wear OS development. It includes a simple app that displays the time and a button to show a toast message. I plan to add more features and improve the UI in the future.",
-    "link": "https://github.com/saishaddai/Android_Wear",
+    "title": "Compose Training", 
+    "status": "In Progress (Always)",
+    "description": "This is a project where I challenge myself by creating UI designs in Compose. I pick designs from various sources (mostly Google Stitch) and try to replicate them using Jetpack Compose and Material 3 Expressive. This helps me improve my skills and learn new techniques in Compose development.",
+    "link": "https://github.com/saishaddai/ComposeTraining",
     "type-image": "https://saishaddai.github.io/images/android_generic.png",
-    "stack" : ["Android", "Kotlin", "Wear OS", "Jetpack Compose", "Material 3 Expressive", "Coroutines"]
+    "stack" : ["Android", "Kotlin", "Jetpack Compose", "Navigation 3", "Material 3"]
   }, 
   {
     "title": "Taximeter", 
