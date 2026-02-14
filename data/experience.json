@@ -5,6 +5,7 @@
     "url": "https://www.encora.com",
     "timeline": "May 2025 - Oct 2025",
     "industry": "Accelerators, Data and GenAI",
+    "keywords": ["Data","GenAI","Accelerators","Kotlin", "Java", "Spring", "SpringBoot", "H1"],
     "description": "I have been actively involved in internal projects focused on Data and Generative AI, developing accelerators that enhance efficiency and innovation across teams. In parallel, I contributed to improving processes for Talent Acquisition, particularly in recruiting and evaluating candidates for Android development and Java/Kotlin backend roles. This work combined technical expertise with strategic process optimization, ensuring both cutting-edge project delivery and stronger alignment between engineering talent and organizational needs."
   }, 
   {
@@ -13,7 +14,8 @@
     "url": "https://www.encora.com",
     "timeline": "Mar 2022 - Apr 2025",
     "industry": "Government, Education, Healthcare, Transportation, Travel",
-    "description": "I coached and managed 56 engineers across the USA, Mexico, Argentina, Costa Rica, Colombia, and India while overseeing 17 client accounts in industries such as logistics, travel, healthcare, education, and energy. My role included facilitating kickoff meetings, defining expectations, and drafting contracts (SOW, MSA, EAF), as well as implementing performance improvement programs, onboarding/offboarding processes, and regular team health checks. I conducted weekly and biweekly meetings, one-on-one sessions for workload and wellbeing, performance and salary reviews, and ensured financial health within accounts. Additionally, I supported talent delivery, assigned roles, coordinated travel, presented Encora’s capabilities in Gen AI, Cloud, and Data, created fiscal reports and industry updates, interviewed candidates, designed challenges for the Spark Internship Program, mentored developers on the bench, and managed internal products and accelerators."
+    "keywords": ["Leadership","Management","Coaching","GenAI","Cloud","Hiring", "Android", "Kotlin"],
+    "description": "I coached and managed 76 engineers across the USA, Mexico, Argentina, Costa Rica, Colombia, and India while overseeing 17 client accounts in industries such as logistics, travel, healthcare, education, and energy. My role included facilitating kickoff meetings, defining expectations, and drafting contracts (SOW, MSA, EAF), as well as implementing performance improvement programs, onboarding/offboarding processes, and regular team health checks. I conducted weekly and biweekly meetings, one-on-one sessions for workload and wellbeing, performance and salary reviews, and ensured financial health within accounts. Additionally, I supported talent delivery, assigned roles, coordinated travel, presented Encora’s capabilities in Gen AI, Cloud, and Data, created fiscal reports and industry updates, interviewed candidates, designed challenges for the Spark Internship Program, mentored developers on the bench, and managed internal products and accelerators."
   },
   {
     "title": "Android Developer at Crew App",
@@ -21,6 +23,7 @@
     "url": "https://www.crewapp.com",
     "timeline": "Nov 2018 - Mar 2022",
     "industry": "Communication, Restaurants",
+    "keywords": ["Android","Kotlin","Navigation","Coroutines","CI/CD","Java", "Android Studio", "Retrofit", "Material Design", "XML UI", "RxJava", "RxAndroid", "Dagger"],
     "description": "In my role, I spearheaded the modernization of legacy systems by developing and executing strategies to migrate code from Java to Kotlin, enhancing efficiency and maintainability. I also created proof-of-concept implementations using coroutines to demonstrate innovative features and significant performance gains, which informed key project decisions. Additionally, I built continuous integration support from the ground up, streamlining deployment processes and reducing errors. I contributed to defining and documenting best practices and coding standards, fostering a collaborative and high-quality development environment. My responsibilities extended to implementing and demonstrating new features, ensuring seamless integration and user adoption. Finally I helped as a translator between English and Spanish for the development team, facilitating clear communication and understanding across diverse team members and negotiations with Grupo Bimbo."
   },
   {
@@ -29,6 +32,7 @@
     "url": "https://www.ifoodds.com/software-solutions/food-traceability-software/",
     "timeline": "Feb 2015 - Nov 2018",
     "industry": "Food and Transportation",
+    "keywords": ["Android","Migration","Internationalization","Performance","Old Devices","Java", "Eclipse", "Android Studio", "UML", "Confluence"],
     "description": "I led the modernization of the application by creating and implementing a strategy to migrate all legacy code from Eclipse to Android Studio, while also introducing internationalization to support broader global use. I developed bilingual user documentation in English and Spanish, documented processes in Confluence, and described app functionalities using UML for clarity and consistency. My contributions included improving the performance of in-built scanners and optimizing database queries to reduce memory usage and response times. I regularly presented monthly performance reports, updated camera functions, and ultimately delivered a new version of the app tailored for deployment in the Chinese market."
   },
   {
@@ -37,6 +41,7 @@
     "url": "https://www.switchfly.com",
     "timeline": "Jan 2014 - Feb 2015",
     "industry": "Travel and Hospitality",
+    "keywords": ["Full-stack","Integration","Automation","Testing","PoC"],
     "description": "I developed integrations for hotel, travel, and activity services within Disney's platform and Tam Viagens, ensuring seamless functionality across different domains. In addition, I enhanced the automation testing framework to improve reliability and efficiency, and participated in an internal hackathon where I contributed to reducing response times. To support onboarding and knowledge sharing, I also created monthly proof-of-concepts (PoCs) that were presented to new joiners, showcasing practical implementations and fostering innovation within the team."
   },
   {
@@ -45,6 +50,7 @@
     "url": "https://www.linkedin.com/company/ondore",
     "timeline": "Jan 2013 - Dec 2013",
     "industry": "Social Media and Data Science",
+    "keywords": ["Scrum","Project Management","Data Science","Monitoring","Social Media Analytics", "Java", "JSF", "MongoDB"],
     "description": "Worked with different teams as scrum master and project manager to deliver software solutions in two projects: Ondore Scout to monitor social media and internal product to train and monitor data algorithms"
   },
   {
@@ -53,7 +59,8 @@
     "url": "https://hispam.wayra.com/",
     "timeline": "Jun 2012 - Dec 2012",
     "industry": "Healthcare",
-    "description": "Industry: Healthcare. Implemented a Web application to store med data and history providing a platform for doctors and patients to access their information. Technologies: Java, JSP, Servlets, JDBC, HTML, CSS, JavaScript, MySQL."
+    "keywords": ["Java","Web","Backbone","Healthcare","MySQL","JSP", "MongoDB"],
+    "description": "Implemented a Web application to store med data and history providing a platform for doctors and patients to access their information. Technologies: Java, JSP, Servlets, JDBC, HTML, CSS, JavaScript, MySQL."
   },
   {
     "title": "Fullstack Developer at Ondore",
@@ -61,7 +68,8 @@
     "url": "https://www.linkedin.com/company/ondore",
     "timeline": "Jan 2008 - Jun 2012",
     "industry": "Government, Education, Music",
-    "description": "Industries: Government, Education, Music. Designed and developed backend applications to easy integrate in search engines for the government of Mexico, Universidad de Colima, Ideas Radio Telcel. Implemented data strategies to index and consolidate sources for data search engines. Implemented the web crawlers agents to retrieve the information from diffferent media"
+    "keywords": ["Backend","Data Integration","Search","Web Crawlers","Content Indexing", "Java", "SOAP XML", "Microservices", "PHP", "PostgreSQL"],
+    "description": "Designed and developed backend applications to easy integrate in search engines for the government of Mexico, Universidad de Colima, Ideas Radio Telcel. Implemented data strategies to index and consolidate sources for data search engines. Implemented the web crawlers agents to retrieve the information from diffferent media. Created the tools to monitor, improve search engine performance and accuracy in linguistics in English and Spanish."
   },
   {
     "title": "Intern Fullstack Developer at Universidad Nacional Autónoma de México",
@@ -69,7 +77,8 @@
     "url": "https://www.unam.mx",
     "timeline": "Jan 2007 - Dec 2007",
     "industry": "Education",
-    "description": "Industry Education: Assisted in the development and testing of web applications, gaining practical experience in software development. Worked in ALUNAM Project to provide online educational services to students."
+    "keywords": ["Web Development","Java", "JSP", "Struts 1","Struts 2", "Servlets", "Testing","Education","ALUNAM"],
+    "description": "Assisted in the development and testing of web applications, gaining practical experience in software development. Worked in ALUNAM Project to provide online educational services to students."
   }
 
 ]

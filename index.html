@@ -158,6 +158,19 @@
                         `;
                     wrapperDiv.appendChild(contentDiv);
 
+                    // Render keywords as bubbles (same styling as projects.html stack badges)
+                    const keywordsDiv = document.createElement('div');
+                    keywordsDiv.className = 'flex flex-wrap gap-2 mt-2';
+                    if (Array.isArray(item.keywords)) {
+                        item.keywords.forEach(kw => {
+                            const kwSpan = document.createElement('span');
+                            kwSpan.className = 'text-xs font-medium text-primary bg-primary/20 dark:bg-primary/30 rounded-full px-3 py-1';
+                            kwSpan.textContent = kw;
+                            keywordsDiv.appendChild(kwSpan);
+                        });
+                        contentDiv.appendChild(keywordsDiv);
+                    }
+
                     container.appendChild(wrapperDiv);
                 });
             })
