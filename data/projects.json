@@ -1,5 +1,13 @@
 [
   {
+    "title": "Flashcards 2", 
+    "status": "In Progress",
+    "description": "Mostly an app to study based on Flashcards. I created this project to study basics of programming during the day. It shows 20 cards randomly selected. Fully implemented with Jetpack Compose, Navigation 3 and Material 3. It also has offline support and unit and instrumentation testing.",
+    "link": "https://github.com/saishaddai/Flashcards2",
+    "type-image": "https://saishaddai.github.io/images/android_generic.png",
+    "stack" : ["Android", "Kotlin", "Jetpack Compose", "Navigation 3", "Offline", "Unit Testing", "Coroutines", "Instrumentation Testing", "Material 3"]
+  },
+  {
     "title": "Personal Website", 
     "status": "In Progress (Always)",
     "description": "This is my personal website where I share my experience, projects and blog posts. It is built with completely with vanilla JS, Tailwind CSS and HTML and hosted on GitHub Pages.",
@@ -30,22 +38,6 @@
     "link": "https://github.com/saishaddai/TodoList",
     "type-image": "https://saishaddai.github.io/images/backend_kotlin_generic.png",
     "stack" : ["Java", "Spring", "SpringBoot", "H1"]
-  }, 
-  {
-    "title": "Flashcards", 
-    "status": "Finished",
-    "description": "Mostly based on the Bullying With Questions. I created this project to study basics of programming during the day. It shows 20 cards randomly selected. I want to add an UI fully in Jetpack compose",
-    "link": "https://github.com/saishaddai/Flashcards",
-    "type-image": "https://saishaddai.github.io/images/android_generic.png",
-    "stack" : ["Android", "Kotlin", "XML UI", "Fragments", "Offline"]
-  },
-  {
-    "title": "Bullying with questions", 
-    "status": "Finished",
-    "description": "This is very basic script to retrieve randomly a line of a file where programming questions are stored. Specifically, each time is called, it will throw you a different question each time. I think I should put more attention oto this projects and make it grow a little. Take in consideration this projects was created before AI so it has a very limited source of knowledge.",
-    "link": "https://github.com/saishaddai/BullyingWithQuestions",
-    "type-image": "https://saishaddai.github.io/images/html_generic.png",
-    "stack" : ["Bash", "Offline", "text-based"]
   }, 
   {
     "title": "Fight Info Retriever", 
