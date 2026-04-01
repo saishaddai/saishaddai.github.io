@@ -4,7 +4,7 @@
     "status": "In Progress",
     "description": "Mostly an app to study based on Flashcards. I created this project to study basics of programming during the day. It shows 20 cards randomly selected. Fully implemented with Jetpack Compose, Navigation 3 and Material 3. It also has offline support and unit and instrumentation testing.",
     "link": "https://github.com/saishaddai/Flashcards2",
-    "type-image": "https://saishaddai.github.io/images/android_generic.png",
+    "type-image": "https://saishaddai.github.io/images/flashcards2.png",
     "stack" : ["Android", "Kotlin", "Jetpack Compose", "Navigation 3", "Offline", "Unit Testing", "Coroutines", "Instrumentation Testing", "Material 3"]
   },
   {
@@ -12,7 +12,7 @@
     "status": "In Progress (Always)",
     "description": "This is my personal website where I share my experience, projects and blog posts. It is built with completely with vanilla JS, Tailwind CSS and HTML and hosted on GitHub Pages.",
     "link": "https://github.com/saishaddai/saishaddai.github.io",
-    "type-image": "https://saishaddai.github.io/images/html_generic.png",
+    "type-image": "https://saishaddai.github.io/images/personal_site.png",
     "stack" : ["HTML", "JavaScript", "TailwindCSS", "GitHub Pages"]
   }, 
   {
@@ -20,7 +20,7 @@
     "status": "In Progress (Always)",
     "description": "This is a project where I challenge myself by creating UI designs in Compose. I pick designs from various sources (mostly Google Stitch) and try to replicate them using Jetpack Compose and Material 3 Expressive. This helps me improve my skills and learn new techniques in Compose development.",
     "link": "https://github.com/saishaddai/ComposeTraining",
-    "type-image": "https://saishaddai.github.io/images/android_generic.png",
+    "type-image": "https://saishaddai.github.io/images/compose_training.png",
     "stack" : ["Android", "Kotlin", "Jetpack Compose", "Navigation 3", "Material 3"]
   }, 
   {
@@ -28,7 +28,7 @@
     "status": "Planning",
     "description": "This is a simple taximeter I started to work on while working with some fellow friends. It is built with Jetpack Compose and Material 3 Expressive. The app allows users to start, stop and reset the taximeter, as well as to set the rate per kilometer and the initial fare. The app also displays the total fare and the distance traveled.",
     "link": "https://github.com/saishaddai/Taximeter",
-    "type-image": "https://saishaddai.github.io/images/android_generic.png",
+    "type-image": "https://saishaddai.github.io/images/taxi.png",
     "stack" : ["Android", "Kotlin", "Jetpack Compose", "Material 3 Expressive", "Coroutines"]
   },
   {
