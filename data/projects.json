@@ -8,8 +8,16 @@
     "stack" : ["Android", "Kotlin", "Jetpack Compose", "Navigation 3", "Offline", "Unit Testing", "Coroutines", "Instrumentation Testing", "Material 3"]
   },
   {
+    "title": "TUI", 
+    "status": "In Progress",
+    "description": "This is a project to start to create TUI (Text User Interface) Apps. I'm learning Go and I'm using Bubble Tea as an externam module. I will eventually refactor my entire project of Bullying with Questions (originally a script shell) to TUI",
+    "link": "https://github.com/saishaddai/TUI",
+    "type-image": "https://saishaddai.github.io/images/personal_site.png",
+    "stack" : ["Go", "Bubble Tea"]
+  }, 
+  {
     "title": "Personal Website", 
-    "status": "In Progress (Always)",
+    "status": "Finished (with minor updates)",
     "description": "This is my personal website where I share my experience, projects and blog posts. It is built with completely with vanilla JS, Tailwind CSS and HTML and hosted on GitHub Pages.",
     "link": "https://github.com/saishaddai/saishaddai.github.io",
     "type-image": "https://saishaddai.github.io/images/personal_site.png",
@@ -17,7 +25,7 @@
   }, 
   {
     "title": "Compose Training", 
-    "status": "In Progress (Always)",
+    "status": "Finished",
     "description": "This is a project where I challenge myself by creating UI designs in Compose. I pick designs from various sources (mostly Google Stitch) and try to replicate them using Jetpack Compose and Material 3 Expressive. This helps me improve my skills and learn new techniques in Compose development.",
     "link": "https://github.com/saishaddai/ComposeTraining",
     "type-image": "https://saishaddai.github.io/images/compose_training.png",
