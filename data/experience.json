@@ -1,5 +1,23 @@
 [
   {
+    "title": "Senior Android Developer at Cars dot com",
+    "company": "Cars",
+    "url": "https://www.cars.com/",
+    "timeline": "Aug 2026 - Present",
+    "industry": "Transportation, Sales, Payment",
+    "keywords": ["Claude Code", "UI Design","Kotlin","Jetpack Compose", "Android", "KMP", "Antigravity", "Jetpack Navigation"],
+    "description": "Worked with legacy code to upgrade it from Navigation 2 to Navigation 3. Moving from XML based UI to Jeypack Compose. Propose strategies to move from Android to KMP"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Freelance",
+    "url": "",
+    "timeline": "Feb 2026 - Aug 2026",
+    "industry": "Startups, Design, GenAI",
+    "keywords": ["Startups","UI Design","Kotlin","Jetpack Compose", "LLM training", "Android", "KMP", "Antigravity"],
+    "description": "Worked as a freelance software engineer. Created demos, proof of concepts, LLMs trainings, and set specs, skills and prompts with Antigravity"
+  },
+  {
     "title": "Software Developer at Encora Inc",
     "company": "Encora Inc",
     "url": "https://www.encora.com",
