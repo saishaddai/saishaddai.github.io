@@ -1,15 +1,23 @@
 [
   {
-    "title": "Flashcards 2", 
-    "status": "In Progress",
-    "description": "Mostly an app to study based on Flashcards. I created this project to study basics of programming during the day. It shows 20 cards randomly selected. Fully implemented with Jetpack Compose, Navigation 3 and Material 3. It also has offline support and unit and instrumentation testing.",
-    "link": "https://github.com/saishaddai/Flashcards2",
+    "title": "Shae2Play", 
+    "status": "Planning",
+    "description": "Pretty much a way to play along with different LLMs, specifically this one is planned to be built with local LLMs. This app is about playing a sound by shaking the device",
+    "link": "https://github.com/saishaddai/Shake2Play",
     "type-image": "https://saishaddai.github.io/images/flashcards2.png",
-    "stack" : ["Android", "Kotlin", "Jetpack Compose", "Navigation 3", "Offline", "Unit Testing", "Coroutines", "Instrumentation Testing", "Material 3"]
+    "stack" : ["Android", "Kotlin", "Olama LLM", "Jetpack Compose", "Navigation 3", "Offline", "Unit Testing", "Coroutines", "Instrumentation Testing", "Material 3"]
+  },
+  {
+    "title": "Taximeter KMP", 
+    "status": "Planning",
+    "description": "This is another experiment. This is me trying to create a new application using Kotlin Multiplatform, with Compose Multiplatform because I still try to avoid to use Swift UI. This is a basic taximenter",
+    "link": "https://github.com/saishaddai/Taximeter KMP",
+    "type-image": "https://saishaddai.github.io/images/flashcards2.png",
+    "stack" : ["Android", "Kotlin", "Jetpack Compose", "Compose Multiplatform", "Navigation 3", "Offline", "Unit Testing", "Coroutines", "Instrumentation Testing", "Material 3"]
   },
   {
     "title": "TUI", 
-    "status": "In Progress",
+    "status": "Finished",
     "description": "This is a project to start to create TUI (Text User Interface) Apps. I'm learning Go and I'm using Bubble Tea as an externam module. I will eventually refactor my entire project of Bullying with Questions (originally a script shell) to TUI",
     "link": "https://github.com/saishaddai/TUI",
     "type-image": "https://saishaddai.github.io/images/personal_site.png",
